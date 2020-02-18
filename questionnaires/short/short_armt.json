@@ -27,15 +27,8 @@
     "text_validation_type_or_show_slider_number": "",
     "text_validation_min": "",
     "text_validation_max": "",
-    "identifier": "",
     "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "phq8",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
+    "matrix_group_name": "phq8"
   },
   {
     "field_name": "esm_content",
