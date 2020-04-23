@@ -1,0 +1,708 @@
+[
+  {
+    "field_name": "health_literacy_1",
+    "form_name": "health_literacy",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "The following questions are about how it is for you to find, understand and use information related to health, illness and medical care in the UK."
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_2",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to find information on treatments of illnesses that concern you?",
+    "field_type": "radio",
+    "field_label": "Select the option that best matches your answer",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_3",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to find out where to get professional help when you are ill (e.g. doctor, pharmacist or psychologist)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_4",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to understand what your doctor says to you?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_5",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to understand your doctor´s or pharmacist´s instruction on how to take a prescribed medicine?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_6",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to judge when you need to get a second opinion from another doctor?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_7",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to use information the doctor gives you to make decisions about your illness?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_8",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to follow instructions from your doctor or pharmacist?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_9",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to find information on how to manage mental health problems such as stress and depression?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_10",
+    "form_name": "health_literacy",
+    "section_header": " How easy/difficult is it for you to understand warnings about behaviour (e.g. smoking, low physical activity and drinking too much)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_11",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to understand why you need health screenings (such as breast exam, blood sugar- or blood pressure test)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_12",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to judge if the information on health risks in the media is reliable (e.g. from TV or internet)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_13",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to decide how you can protect yourself from illness based on information in media (e.g. newspapers, leaflets and internet)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_14",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to find out about activities that are good for your mental well-being (e.g. meditation, exercise and walking)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_15",
+    "form_name": "health_literacy",
+    "section_header": " How easy/difficult is it for you to understand advice on health from your family members or friends?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_16",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to understand information in the media on how to get healthier (e.g. from the internet, daily or weekly magazines)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "health_literacy_17",
+    "form_name": "health_literacy",
+    "section_header": "How easy/difficult is it for you to judge which everyday behaviour is related to your health (e.g. eating habits, exercise habits and drinking habits)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very easy"
+      },
+      {
+        "code": "1",
+        "label": "Easy"
+      },
+      {
+        "code": "2",
+        "label": "Difficult"
+      },
+      {
+        "code": "3",
+        "label": "Very difficult"
+      },
+      {
+        "code": "4",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "health_literacy",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
