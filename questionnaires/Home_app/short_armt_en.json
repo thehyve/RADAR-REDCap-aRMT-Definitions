@@ -1547,12 +1547,8 @@
     "field_label": "when using the HOME app, how strongly are you experiencing interest?",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": "Not at all"
-      },
-      {
         "code": "1",
-        "label": "1"
+        "label": "Not at all"
       },
       {
         "code": "2",
