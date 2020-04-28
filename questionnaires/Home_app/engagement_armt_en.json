@@ -2,7 +2,7 @@
   {
   "field_name": "engagement_1",
   "form_name": "engagement",
-  "section_header": "to monitor your engagement with app, we would like to know",
+  "section_header": "",
   "field_type": "range",
   "field_label": "When using the HOME app, how strongly are you experiencing interest?",
   "select_choices_or_calculations": [
@@ -44,7 +44,7 @@
   "required_field": "",
   "custom_alignment": "",
   "question_number": "",
-  "matrix_group_name": "short",
+  "matrix_group_name": "engagement",
   "matrix_ranking": "",
   "field_annotation": "",
   "evaluated_logic": ""
