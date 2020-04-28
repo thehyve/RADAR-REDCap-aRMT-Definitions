@@ -1409,7 +1409,7 @@
     "field_name": "short_12",
     "form_name": "short",
     "section_header": "Why was it not easy?",
-    "field_type": "radio",
+    "field_type": "checkbox",
     "field_label": "Mutiple options possible",
     "select_choices_or_calculations": [
       {
