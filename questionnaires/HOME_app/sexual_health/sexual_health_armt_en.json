@@ -1,0 +1,838 @@
+[
+  {
+    "field_name": "sexual_health_1",
+    "form_name": "sexual_health",
+    "section_header": "Which of these have you used, to prevent pregnancy, Sexually Transmitted Infections, or for any other reason (e.g. pill use to help with acne, pill for stopping menstruation)?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Does not apply, I haven’t had sex"
+      },
+      {
+        "code": "1",
+        "label": "No method used – ever"
+      },
+      {
+        "code": "2",
+        "label": "Male condom"
+      },
+      {
+        "code": "3",
+        "label": "Female condom"
+      },
+      {
+        "code": "4",
+        "label": "Cap/diaphragm"
+      },
+      {
+        "code": "5",
+        "label": "Dental dams"
+      },
+      {
+        "code": "6",
+        "label": "Partner has been /I have been sterilized or had a vasectomy"
+      },
+      {
+        "code": "7",
+        "label": "Combined oral contraceptive pill"
+      },
+      {
+        "code": "8",
+        "label": "Progesterone only contraceptive pill"
+      },
+      {
+        "code": "9",
+        "label": "Contraceptive pill – don't know which type"
+      },
+      {
+        "code": "10",
+        "label": "Hormonal IUS (e.g. Mirena, Jaydress, Kyleena, Levosert)"
+      },
+      {
+        "code": "11",
+        "label": "Vaginal ring (e.g. NuvaRing)"
+      },
+      {
+        "code": "12",
+        "label": "Contraceptive patch (e.g. EVRA)"
+      },
+      {
+        "code": "13",
+        "label": "Injections"
+      },
+      {
+        "code": "14",
+        "label": "Implants Emergency"
+      },
+      {
+        "code": "15",
+        "label": "Emergency contraceptive pill/morning after pill"
+      },
+      {
+        "code": "16",
+        "label": "Emergency copper coil/intra-uterine device (IUD)"
+      },
+      {
+        "code": "17",
+        "label": "Post-exposure prophylaxis (PEP) to prevent HIV"
+      },
+      {
+        "code": "18",
+        "label": "Safe period/calendar method/rhythm method"
+      },
+      {
+        "code": "19",
+        "label": "Withdrawal (not ejaculating in a partner’s mouth, vagina, or anus)"
+      },
+      {
+        "code": "20",
+        "label": "Fertility awareness apps or devices"
+      },
+      {
+        "code": "21",
+        "label": "Avoiding penetrative sex"
+      },
+      {
+        "code": "22",
+        "label": "Copper coil/intra-uterine device (IUD)"
+      },
+      {
+        "code": "23",
+        "label": "Spermicides (foams/gels/sprays/pessaries)"
+      },
+      {
+        "code": "24",
+        "label": "Pre-Exposure Prophylaxis (PrEP) drug"
+      },
+      {
+        "code": "25",
+        "label": "Other method of protection"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "sexual_health_2",
+    "form_name": "sexual_health",
+    "section_header": "Which of these have you or a partner used together in the last year?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No method used – ever"
+      },
+      {
+        "code": "1",
+        "label": "Male condom"
+      },
+      {
+        "code": "2",
+        "label": "Female condom"
+      },
+      {
+        "code": "3",
+        "label": "Cap/diaphragm"
+      },
+      {
+        "code": "4",
+        "label": "Dental dams"
+      },
+      {
+        "code": "5",
+        "label": "Partner has been /I have been sterilized or had a vasectomy"
+      },
+      {
+        "code": "6",
+        "label": "Combined oral contraceptive pill"
+      },
+      {
+        "code": "7",
+        "label": "Progesterone only contraceptive pill"
+      },
+      {
+        "code": "8",
+        "label": "Contraceptive pill – don't know which type"
+      },
+      {
+        "code": "9",
+        "label": "Hormonal IUS (e.g. Mirena, Jaydress, Kyleena, Levosert)"
+      },
+      {
+        "code": "10",
+        "label": "Vaginal ring (e.g. NuvaRing)"
+      },
+      {
+        "code": "11",
+        "label": "Contraceptive patch (e.g. EVRA)"
+      },
+      {
+        "code": "12",
+        "label": "Injections"
+      },
+      {
+        "code": "13",
+        "label": "Implants Emergency"
+      },
+      {
+        "code": "14",
+        "label": "Emergency contraceptive pill/morning after pill"
+      },
+      {
+        "code": "15",
+        "label": "Emergency copper coil/intra-uterine device (IUD)"
+      },
+      {
+        "code": "16",
+        "label": "Post-exposure prophylaxis (PEP) to prevent HIV"
+      },
+      {
+        "code": "17",
+        "label": "Safe period/calendar method/rhythm method"
+      },
+      {
+        "code": "18",
+        "label": "Withdrawal (not ejaculating in a partner’s mouth, vagina, or anus)"
+      },
+      {
+        "code": "19",
+        "label": "Fertility awareness apps or devices"
+      },
+      {
+        "code": "20",
+        "label": "Avoiding penetrative sex"
+      },
+      {
+        "code": "21",
+        "label": "Copper coil/intra-uterine device (IUD)"
+      },
+      {
+        "code": "22",
+        "label": "Spermicides (foams/gels/sprays/pessaries)"
+      },
+      {
+        "code": "23",
+        "label": "Pre-Exposure Prophylaxis (PrEP) drug"
+      },
+      {
+        "code": "24",
+        "label": "Other method of protection"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_1'] == 1 || responses['sexual_health_1'] == 2 || responses['sexual_health_1'] == 3 || responses['sexual_health_1'] == 4 || responses['sexual_health_1'] == 5 || responses['sexual_health_1'] == 6 || responses['sexual_health_1'] == 7 || responses['sexual_health_1'] == 8 || responses['sexual_health_1'] == 9 || responses['sexual_health_1'] == 10 || responses['sexual_health_1'] == 11 || responses['sexual_health_1'] == 12 || responses['sexual_health_1'] == 13 || responses['sexual_health_1'] == 14 || responses['sexual_health_1'] == 15 || responses['sexual_health_1'] == 16 || responses['sexual_health_1'] == 17 || responses['sexual_health_1'] == 18 || responses['sexual_health_1'] == 19 || responses['sexual_health_1'] == 20 || responses['sexual_health_1'] == 21 || responses['sexual_health_1'] == 22 || responses['sexual_health_1'] == 23 || responses['sexual_health_1'] == 24 || responses['sexual_health_1'] == 25"
+  },
+  {
+    "field_name": "sexual_health_3",
+    "form_name": "sexual_health",
+    "section_header": "Thinking about this/these method(s) where do you or a partner normally get this supplied or fitted?",
+    "field_type": "checkbox",
+    "field_label": "If from multiple places, please choose the one you get it from most often",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Sexual health (GUM) clinic / family planning clinic / reproductive health clinic"
+      },
+      {
+        "code": "1",
+        "label": "At a GP surgery with either a GP/family doctor or a nurse"
+      },
+      {
+        "code": "2",
+        "label": "NHS post-natal clinic / midwife / obstetrician"
+      },
+      {
+        "code": "3",
+        "label": "Private doctor or clinic"
+      },
+      {
+        "code": "4",
+        "label": "Young People’s clinic (e.g. Brook clinic)"
+      },
+      {
+        "code": "5",
+        "label": "Pharmacy / Chemist"
+      },
+      {
+        "code": "6",
+        "label": "Free from online source"
+      },
+      {
+        "code": "7",
+        "label": "Paid for from online source"
+      },
+      {
+        "code": "8",
+        "label": "School / college / university services"
+      },
+      {
+        "code": "9",
+        "label": "Over the counter at a petrol station/supermarket/other shop"
+      },
+      {
+        "code": "10",
+        "label": "Vending machine"
+      },
+      {
+        "code": "11",
+        "label": "Hospital accident and emergency (A & E) department"
+      },
+      {
+        "code": "12",
+        "label": "Somewhere else"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_2'] == 1 || responses['sexual_health_2'] == 2 || responses['sexual_health_2'] == 3 || responses['sexual_health_2'] == 4 || responses['sexual_health_2'] == 5 || responses['sexual_health_2'] == 6 || responses['sexual_health_2'] == 7 || responses['sexual_health_2'] == 8 || responses['sexual_health_2'] == 9 || responses['sexual_health_2'] == 10 || responses['sexual_health_2'] == 11 || responses['sexual_health_2'] == 12 || responses['sexual_health_2'] == 13 || responses['sexual_health_2'] == 14 || responses['sexual_health_2'] == 15 || responses['sexual_health_2'] == 16 || responses['sexual_health_2'] == 17 || responses['sexual_health_2'] == 18 || responses['sexual_health_2'] == 19 || responses['sexual_health_2'] == 20 || responses['sexual_health_2'] == 21 || responses['sexual_health_2'] == 22 || responses['sexual_health_2'] == 23 || responses['sexual_health_2'] == 24"
+  },
+  {
+    "field_name": "sexual_health_4",
+    "form_name": "sexual_health",
+    "section_header": "In the last year, have you and a partner used condoms together?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Not used condoms."
+      },
+      {
+        "code": "1",
+        "label": "Yes, to prevent pregnancy"
+      },
+      {
+        "code": "2",
+        "label": "Yes, to protect against HIV"
+      },
+      {
+        "code": "3",
+        "label": "Yes, to protect against other sexually transmitted infections"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_2'] == 1 || responses['sexual_health_2'] == 2 || responses['sexual_health_2'] == 3 || responses['sexual_health_2'] == 4 || responses['sexual_health_2'] == 5 || responses['sexual_health_2'] == 6 || responses['sexual_health_2'] == 7 || responses['sexual_health_2'] == 8 || responses['sexual_health_2'] == 9 || responses['sexual_health_2'] == 10 || responses['sexual_health_2'] == 11 || responses['sexual_health_2'] == 12 || responses['sexual_health_2'] == 13 || responses['sexual_health_2'] == 14 || responses['sexual_health_2'] == 15 || responses['sexual_health_2'] == 16 || responses['sexual_health_2'] == 17 || responses['sexual_health_2'] == 18 || responses['sexual_health_2'] == 19 || responses['sexual_health_2'] == 20 || responses['sexual_health_2'] == 21 || responses['sexual_health_2'] == 22 || responses['sexual_health_2'] == 23 || responses['sexual_health_2'] == 24"
+  },
+  {
+    "field_name": "sexual_health_5",
+    "form_name": "sexual_health",
+    "section_header": "Have you ever attended a sexual health clinic (GUM clinic)?",
+    "field_type": "radio",
+    "field_label": "(Please do not include ‘online STI testing services’)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_1'] == 1 || responses['sexual_health_1'] == 2 || responses['sexual_health_1'] == 3 || responses['sexual_health_1'] == 4 || responses['sexual_health_1'] == 5 || responses['sexual_health_1'] == 6 || responses['sexual_health_1'] == 7 || responses['sexual_health_1'] == 8 || responses['sexual_health_1'] == 9 || responses['sexual_health_1'] == 10 || responses['sexual_health_1'] == 11 || responses['sexual_health_1'] == 12 || responses['sexual_health_1'] == 13 || responses['sexual_health_1'] == 14 || responses['sexual_health_1'] == 15 || responses['sexual_health_1'] == 16 || responses['sexual_health_1'] == 17 || responses['sexual_health_1'] == 18 || responses['sexual_health_1'] == 19 || responses['sexual_health_1'] == 20 || responses['sexual_health_1'] == 21 || responses['sexual_health_1'] == 22 || responses['sexual_health_1'] == 23 || responses['sexual_health_1'] == 24 || responses['sexual_health_1'] == 25"
+  },
+  {
+    "field_name": "sexual_health_6",
+    "form_name": "sexual_health",
+    "section_header": "When was that?",
+    "field_type": "radio",
+    "field_label": "(The last time if more than once)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "In the last year"
+      },
+      {
+        "code": "1",
+        "label": "Between 1 and 5 years ago"
+      },
+      {
+        "code": "2",
+        "label": "More than 5 year"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_5'] == 0"
+  },
+  {
+    "field_name": "sexual_health_7",
+    "form_name": "sexual_health",
+    "section_header": "Why did you attend a sexual health clinic the last time?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "I wanted a general sexual health check-up"
+      },
+      {
+        "code": "1",
+        "label": "I had no symptoms, but I was worried about the risk of STIs/HIV"
+      },
+      {
+        "code": "2",
+        "label": "I had symptoms"
+      },
+      {
+        "code": "3",
+        "label": "My partner had symptoms"
+      },
+      {
+        "code": "4",
+        "label": "I was notified because a partner was diagnosed with an STI"
+      },
+      {
+        "code": "5",
+        "label": "Check-up after a previous positive test"
+      },
+      {
+        "code": "6",
+        "label": "As follow-up to an online test"
+      },
+      {
+        "code": "7",
+        "label": "I was told to attend by my GP/family doctor or another healthcare professional"
+      },
+      {
+        "code": "8",
+        "label": "I needed contraception"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_5'] == 0"
+  },
+  {
+    "field_name": "sexual_health_8",
+    "form_name": "sexual_health",
+    "section_header": "Have you ever used an online STI testing service?",
+    "field_type": "radio",
+    "field_label": "(Please do not include just booking an appointment online)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_1'] == 1 || responses['sexual_health_1'] == 2 || responses['sexual_health_1'] == 3 || responses['sexual_health_1'] == 4 || responses['sexual_health_1'] == 5 || responses['sexual_health_1'] == 6 || responses['sexual_health_1'] == 7 || responses['sexual_health_1'] == 8 || responses['sexual_health_1'] == 9 || responses['sexual_health_1'] == 10 || responses['sexual_health_1'] == 11 || responses['sexual_health_1'] == 12 || responses['sexual_health_1'] == 13 || responses['sexual_health_1'] == 14 || responses['sexual_health_1'] == 15 || responses['sexual_health_1'] == 16 || responses['sexual_health_1'] == 17 || responses['sexual_health_1'] == 18 || responses['sexual_health_1'] == 19 || responses['sexual_health_1'] == 20 || responses['sexual_health_1'] == 21 || responses['sexual_health_1'] == 22 || responses['sexual_health_1'] == 23 || responses['sexual_health_1'] == 24 || responses['sexual_health_1'] == 25"
+  },
+  {
+    "field_name": "sexual_health_9",
+    "form_name": "sexual_health",
+    "section_header": "When was that?",
+    "field_type": "radio",
+    "field_label": "(The last time if more than once)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "In the last year"
+      },
+      {
+        "code": "1",
+        "label": "Between 1 and 5 years ago"
+      },
+      {
+        "code": "2",
+        "label": "More than 5 year"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_8'] == 0"
+  },
+  {
+    "field_name": "sexual_health_10",
+    "form_name": "sexual_health",
+    "section_header": "Now, thinking about the last time you wanted to access any sexual health services, were you able to?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes, at a face-to-face clinic within 48 hours"
+      },
+      {
+        "code": "1",
+        "label": "Yes, at a face-to-face clinic within 2 weeks"
+      },
+      {
+        "code": "2",
+        "label": "Yes, at a face-to-face clinic after more than 2 weeks"
+      },
+      {
+        "code": "3",
+        "label": "Yes, online"
+      },
+      {
+        "code": "4",
+        "label": "No, I was unable to"
+      },
+      {
+        "code": "5",
+        "label": "I have never wanted to access a sexual health service"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_1'] == 1 || responses['sexual_health_1'] == 2 || responses['sexual_health_1'] == 3 || responses['sexual_health_1'] == 4 || responses['sexual_health_1'] == 5 || responses['sexual_health_1'] == 6 || responses['sexual_health_1'] == 7 || responses['sexual_health_1'] == 8 || responses['sexual_health_1'] == 9 || responses['sexual_health_1'] == 10 || responses['sexual_health_1'] == 11 || responses['sexual_health_1'] == 12 || responses['sexual_health_1'] == 13 || responses['sexual_health_1'] == 14 || responses['sexual_health_1'] == 15 || responses['sexual_health_1'] == 16 || responses['sexual_health_1'] == 17 || responses['sexual_health_1'] == 18 || responses['sexual_health_1'] == 19 || responses['sexual_health_1'] == 20 || responses['sexual_health_1'] == 21 || responses['sexual_health_1'] == 22 || responses['sexual_health_1'] == 23 || responses['sexual_health_1'] == 24 || responses['sexual_health_1'] == 25"
+  },
+  {
+    "field_name": "sexual_health_11",
+    "form_name": "sexual_health",
+    "section_header": "Have you ever been told by a doctor or other healthcare professional that you have any of the following?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Chlamydia"
+      },
+      {
+        "code": "1",
+        "label": "Gonorrhoea"
+      },
+      {
+        "code": "2",
+        "label": "Mycoplasma genitalium (MGen)"
+      },
+      {
+        "code": "3",
+        "label": "Genital warts"
+      },
+      {
+        "code": "4",
+        "label": "Syphilis"
+      },
+      {
+        "code": "5",
+        "label": "Trichomonas vaginalis (Trich, TV)"
+      },
+      {
+        "code": "6",
+        "label": "Genital herpes"
+      },
+      {
+        "code": "7",
+        "label": "Pubic lice (crabs)"
+      },
+      {
+        "code": "8",
+        "label": "Hepatitis B"
+      },
+      {
+        "code": "9",
+        "label": "Hepatitis C"
+      },
+      {
+        "code": "10",
+        "label": "HIV"
+      },
+      {
+        "code": "11",
+        "label": "NSU (non-specific urethritis) or NGU (non-gonococcal urethritis)"
+      },
+      {
+        "code": "12",
+        "label": "Epididymitis"
+      },
+      {
+        "code": "13",
+        "label": "Pelvic inflammatory disease (PID, salpingitis)"
+      },
+      {
+        "code": "14",
+        "label": "Vaginal thrush (candida, yeast infection)"
+      },
+      {
+        "code": "15",
+        "label": "Bacterial vaginosis (BV)"
+      },
+      {
+        "code": "16",
+        "label": "HPV (human papillomavirus)"
+      },
+      {
+        "code": "17",
+        "label": "Yes, but can’t remember which"
+      },
+      {
+        "code": "18",
+        "label": "None of these"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "sexual_health_12",
+    "form_name": "sexual_health",
+    "section_header": "Have you ever had a test for HIV?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "sexual_health_13",
+    "form_name": "sexual_health",
+    "section_header": "When was your most recent HIV test?",
+    "field_type": "radio",
+    "field_label": "(The last time if more than once)",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "In the last 3 months"
+      },
+      {
+        "code": "1",
+        "label": "Between 3 month and 1 year ago"
+      },
+      {
+        "code": "2",
+        "label": "Between 1-5 years ago"
+      },
+      {
+        "code": "3",
+        "label": "More than 5 years ago"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_12'] == 0"
+  },
+  {
+    "field_name": "sexual_health_14",
+    "form_name": "sexual_health",
+    "section_header": "Where were you last tested for HIV?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Sexual health clinic (GUM clinic)"
+      },
+      {
+        "code": "1",
+        "label": "GP/family doctor surgery"
+      },
+      {
+        "code": "2",
+        "label": "At home using a test ordered online"
+      },
+      {
+        "code": "3",
+        "label": "Family planning/contraceptive clinic/reproductive health clinic"
+      },
+      {
+        "code": "4",
+        "label": "During pregnancy through antenatal clinic or with midwife"
+      },
+      {
+        "code": "5",
+        "label": "Chemist or pharmacy"
+      },
+      {
+        "code": "6",
+        "label": "Young people’s clinic (e.g. Brook clinic)"
+      },
+      {
+        "code": "7",
+        "label": "Termination of pregnancy (abortion) clinic"
+      },
+      {
+        "code": "8",
+        "label": "Hospital accident and emergency (A&E) department"
+      },
+      {
+        "code": "9",
+        "label": "Hospital inpatient (on a ward)"
+      },
+      {
+        "code": "10",
+        "label": "Hospital outpatient clinic"
+      },
+      {
+        "code": "11",
+        "label": "In a non-healthcare setting, for example bar, club or community centrec"
+      },
+      {
+        "code": "12",
+        "label": "At a blood bank, while donating blood"
+      },
+      {
+        "code": "13",
+        "label": "Somewhere else"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "sexual_health",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['sexual_health_12'] == 0"
+  }
+]

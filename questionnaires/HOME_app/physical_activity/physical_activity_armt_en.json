@@ -1,0 +1,815 @@
+[
+  {
+    "field_name": "physical_activity_1",
+    "form_name": "physical_activity",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "Think about all the vigorous activities that you did in the last 7 days. Vigorous physical activities refer to activities that take hard physical effort and make you breathe much harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time."
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_2",
+    "form_name": "physical_activity",
+    "section_header": "During the last 7 days, on how many days did you do vigorous physical activities like heavy lifting, digging, aerobics, or fast bicycling?",
+    "field_type": "range",
+    "field_label": "Days",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "0"
+      },
+      {
+        "code": "1",
+        "label": "1"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_3",
+    "form_name": "physical_activity",
+    "section_header": "How much time did you usually spend doing vigorous physical activities on one of those days?",
+    "field_type": "slider",
+    "field_label": "Minutes",
+    "range": {
+      "min": "0",
+      "max": "360",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['physical_activity_2'] == 1 || responses['physical_activity_2'] == 2 || responses['physical_activity_2'] == 3 || responses['physical_activity_2'] == 4 || responses['physical_activity_2'] == 5 || responses['physical_activity_2'] == 6 || responses['physical_activity_2'] == 7"
+  },
+  {
+    "field_name": "physical_activity_4",
+    "form_name": "physical_activity",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "Think about all the moderate activities that you did in the last 7 days. Moderate activities refer to activities that take moderate physical effort and make you breathe somewhat harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time."
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_5",
+    "form_name": "physical_activity",
+    "section_header": "During the last 7 days, on how many days did you do moderate physical activities like carrying light loads, bicycling at a regular pace, or doubles tennis? Do not include walking",
+    "field_type": "range",
+    "field_label": "Days",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "0"
+      },
+      {
+        "code": "1",
+        "label": "1"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_6",
+    "form_name": "physical_activity",
+    "section_header": "How much time did you usually spend doing moderate physical activities on one of those days?",
+    "field_type": "slider",
+    "field_label": "Minutes",
+    "range": {
+      "min": "0",
+      "max": "360",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['physical_activity_5'] == 1 || responses['physical_activity_5'] == 2 || responses['physical_activity_5'] == 3 || responses['physical_activity_5'] == 4 || responses['physical_activity_5'] == 5 || responses['physical_activity_5'] == 6 || responses['physical_activity_5'] == 7"
+  },
+  {
+    "field_name": "physical_activity_7",
+    "form_name": "physical_activity",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "Think about the time you spent walking in the last 7 days. This includes at work and at home, walking to travel from place to place, and any other walking that you have done solely for recreation, sport, exercise, or leisure."
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_8",
+    "form_name": "physical_activity",
+    "section_header": "During the last 7 days, on how many days did you walk for at least 10 minutes at a time?",
+    "field_type": "range",
+    "field_label": "Days",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "0"
+      },
+      {
+        "code": "1",
+        "label": "1"
+      },
+      {
+        "code": "2",
+        "label": "2"
+      },
+      {
+        "code": "3",
+        "label": "3"
+      },
+      {
+        "code": "4",
+        "label": "4"
+      },
+      {
+        "code": "5",
+        "label": "5"
+      },
+      {
+        "code": "6",
+        "label": "6"
+      },
+      {
+        "code": "7",
+        "label": "7"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_9",
+    "form_name": "physical_activity",
+    "section_header": "How much time did you usually spend walking on one of those days?",
+    "field_type": "slider",
+    "field_label": "Minutes",
+    "range": {
+      "min": "0",
+      "max": "720",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['physical_activity_8'] == 1 || responses['physical_activity_8'] == 2 || responses['physical_activity_8'] == 3 || responses['physical_activity_8'] == 4 || responses['physical_activity_8'] == 5 || responses['physical_activity_8'] == 6 || responses['physical_activity_8'] == 7"
+  },
+  {
+    "field_name": "physical_activity_10",
+    "form_name": "physical_activity",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "The next question is about the time you spent sitting on weekdays during the last 7 days. Include time spent at work, at home, while doing course work and during leisure time. This may include time spent sitting at a desk, visiting friends, reading, or sitting or lying down to watch television."
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_11",
+    "form_name": "physical_activity",
+    "section_header": "During the last 7 days, how much time did you spend sitting on a week day?",
+    "field_type": "slider",
+    "field_label": "Hours",
+    "range": {
+      "min": "0",
+      "max": "18",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_12",
+    "form_name": "physical_activity",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "The next questions refer to specific types of activity/exercise during the past twelve months "
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_13",
+    "form_name": "physical_activity",
+    "section_header": "We would like to know the type and amount of physical activity involved in your work",
+    "field_type": "radio",
+    "field_label": "Please tick what best corresponds to your present activities from the following four possibilities",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Sedentary occupation - You spend most of your time sitting (such as in an office)"
+      },
+      {
+        "code": "1",
+        "label": "Standing occupation - You spend most of your time standing or walking. However, your work does not require intense physical effort (e.g. shop assistant, hairdresser, guard, etc.)"
+      },
+      {
+        "code": "2",
+        "label": "Physical work - This involves some physical effort including handling of heavy objects and use of tools (e.g. plumber, cleaner, nurse, sports instructor, electrician, carpenter, etc.)"
+      },
+      {
+        "code": "3",
+        "label": "Heavy manual work - This involves very vigorous physical activity including handling of very heavy objects (e.g. docker, miner, bricklayer, construction worker, etc.)"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_14",
+    "form_name": "physical_activity",
+    "section_header": "",
+    "field_type": "info",
+    "field_label": "Read this carefully",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": ""
+      },
+      {
+        "code": "1",
+        "label": "In a typical week during the past 12 months, how many hours did you spend on each of the following activities?"
+      },
+      {
+        "code": "Click 'next' to continue",
+        "label": ""
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_15",
+    "form_name": "physical_activity",
+    "section_header": "Walking, including walking to work, shopping and leisure - in summer",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_16",
+    "form_name": "physical_activity",
+    "section_header": "Walking, including walking to work, shopping and leisure - in winter",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_17",
+    "form_name": "physical_activity",
+    "section_header": "Cycling, including cycling to work and during leisure time - in summer",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_18",
+    "form_name": "physical_activity",
+    "section_header": "Cycling, including cycling to work and during leisure time - in winter",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_19",
+    "form_name": "physical_activity",
+    "section_header": "Gardening - in summer",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_20",
+    "form_name": "physical_activity",
+    "section_header": "Gardening - in winter",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_21",
+    "form_name": "physical_activity",
+    "section_header": "Housework such as cleaning, washing, cooking, childcare",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_22",
+    "form_name": "physical_activity",
+    "section_header": "Other physical exercise such as keep fit, aerobics, swimming, jogging - in summer",
+    "field_type": "slider",
+    "field_label": "Hours per week",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_23",
+    "form_name": "physical_activity",
+    "section_header": "Other physical exercise such as keep fit, aerobics, swimming, jogging - in winter",
+    "field_type": "slider",
+    "field_label": "Minutes",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_24",
+    "form_name": "physical_activity",
+    "section_header": "In a typical week during the past year did you practise any of these activities vigorously enough to cause sweating or a faster heartbeat?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "physical_activity_25",
+    "form_name": "physical_activity",
+    "section_header": "For how many hours per week in total did you practise such vigorous physical activity?",
+    "field_type": "slider",
+    "field_label": "Minutes",
+    "range": {
+      "min": "0",
+      "max": "84",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['physical_activity_24'] == 0"
+  },
+  {
+    "field_name": "physical_activity_26",
+    "form_name": "physical_activity",
+    "section_header": "In a typical day during the past 12 months, how many floors of stairs did you climb up?",
+    "field_type": "slider",
+    "field_label": "Number",
+    "range": {
+      "min": "0",
+      "max": "50",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "physical_activity",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

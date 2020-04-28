@@ -1,0 +1,494 @@
+[
+  {
+    "field_name": "employment_1",
+    "form_name": "employment",
+    "section_header": "Thinking of the last twelve months, have you had any accident resulting in injury at work or in the course of your (commute to) work?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "employment_2",
+    "form_name": "employment",
+    "section_header": " Was that (most recent) injury caused by...?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "An accident during work"
+      },
+      {
+        "code": "1",
+        "label": "A (road) accident during your commute to work"
+      },
+      {
+        "code": "2",
+        "label": "In some other way"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_1'] == 0"
+  },
+  {
+    "field_name": "employment_3",
+    "form_name": "employment",
+    "section_header": "How soon were you able to start working again after the accident?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Still off paid work"
+      },
+      {
+        "code": "1",
+        "label": "Same day"
+      },
+      {
+        "code": "2",
+        "label": "The day after the accident"
+      },
+      {
+        "code": "3",
+        "label": "On the second day after the accident"
+      },
+      {
+        "code": "4",
+        "label": "On the third day after the accident "
+      },
+      {
+        "code": "5",
+        "label": "On the fourth day after the accident"
+      },
+      {
+        "code": "6",
+        "label": "On the fifth day or longer after the accident"
+      },
+      {
+        "code": "7",
+        "label": "Don't know/Can't remember"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_1'] == 0"
+  },
+  {
+    "field_name": "employment_4",
+    "form_name": "employment",
+    "section_header": "How many days after the accident did you go back to work?",
+    "field_type": "slider",
+    "field_label": "Days",
+    "range": {
+      "min": "0",
+      "max": "365",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_3'] == 6"
+  },
+  {
+    "field_name": "employment_5",
+    "form_name": "employment",
+    "section_header": "Thinking of your most recent injury at work, how would you describe the injury you received?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Amputation (not loss of fleshy finger tips, teeth or nails - count as superficial) "
+      },
+      {
+        "code": "1",
+        "label": "Fracture/broken bones (not cartilage in nose - count as superficial)"
+      },
+      {
+        "code": "2",
+        "label": "Dislocation of joints (without fracture) "
+      },
+      {
+        "code": "3",
+        "label": "Strain/sprain"
+      },
+      {
+        "code": "4",
+        "label": "Superficial (inc. bruising, abrasions, scratches, foreign body in eye)"
+      },
+      {
+        "code": "5",
+        "label": "Lacerations/ open wounds "
+      },
+      {
+        "code": "6",
+        "label": "Loss of sight (temporary or permanent) "
+      },
+      {
+        "code": "7",
+        "label": "Chemical or hot metal burn to the eyeball, or any penetrating injury to the eyeball (not the eye area of the face generally)"
+      },
+      {
+        "code": "8",
+        "label": "Burns/ scalds (not to the eye)"
+      },
+      {
+        "code": "9",
+        "label": "Lack of oxygen (asphyxia) or poisoning"
+      },
+      {
+        "code": "10",
+        "label": "Other type of injury"
+      },
+      {
+        "code": "11",
+        "label": "Multiple injuries, no one injury type obviously more severe"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_1'] == 0"
+  },
+  {
+    "field_name": "employment_6",
+    "form_name": "employment",
+    "section_header": "Which bones did you fracture/break?",
+    "field_type": "checkbox",
+    "field_label": "Mutiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Fingers or thumbs"
+      },
+      {
+        "code": "1",
+        "label": "Toes"
+      },
+      {
+        "code": "2",
+        "label": "Wrist or ankle"
+      },
+      {
+        "code": "3",
+        "label": "Other bones in hand or foot"
+      },
+      {
+        "code": "4",
+        "label": "Other bones in arm or leg"
+      },
+      {
+        "code": "5",
+        "label": "Head, neck, spine or pelvis"
+      },
+      {
+        "code": "6",
+        "label": "Other bones"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_5'] == 1"
+  },
+  {
+    "field_name": "employment_7",
+    "form_name": "employment",
+    "section_header": "Within the last 12 months did you have any physical or mental health problems- other than injuries - that was caused by your work?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "employment_8",
+    "form_name": "employment",
+    "section_header": "How many health problems did you have (in the last 12 months) that were caused by your work?",
+    "field_type": "slider",
+    "field_label": "Number",
+    "range": {
+      "min": "0",
+      "max": "10",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_7'] == 0"
+  },
+  {
+    "field_name": "employment_9",
+    "form_name": "employment",
+    "section_header": "How would you describe this/these health problem(s)?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Bone, joint or muscle problems which mainly affect (or is mainly connected with) arms, hands, neck or shoulder"
+      },
+      {
+        "code": "1",
+        "label": "Hips, legs or feet"
+      },
+      {
+        "code": "2",
+        "label": "Back"
+      },
+      {
+        "code": "3",
+        "label": "Breathing or lung problems"
+      },
+      {
+        "code": "4",
+        "label": "Skin problems"
+      },
+      {
+        "code": "5",
+        "label": "Hearing problems"
+      },
+      {
+        "code": "6",
+        "label": "Stress, depression or anxiety"
+      },
+      {
+        "code": "7",
+        "label": "Headache and/or eyestrain"
+      },
+      {
+        "code": "8",
+        "label": "Heart disease / attack, other circulatory system"
+      },
+      {
+        "code": "9",
+        "label": "Infectious disease (virus, bacteria) "
+      },
+      {
+        "code": "10",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_7'] == 0"
+  },
+  {
+    "field_name": "employment_10",
+    "form_name": "employment",
+    "section_header": "In the last twelve months, how much time off work have you had because of this/these health problem(s)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "No time off work"
+      },
+      {
+        "code": "1",
+        "label": "Less than one day"
+      },
+      {
+        "code": "2",
+        "label": "1 to 3 days, (Work days)"
+      },
+      {
+        "code": "3",
+        "label": "4 to 6 days, (Work days)"
+      },
+      {
+        "code": "4",
+        "label": "At least 1 week but less than 2 weeks"
+      },
+      {
+        "code": "5",
+        "label": "At least 2 weeks but less than 1 month "
+      },
+      {
+        "code": "6",
+        "label": "At least 1 month but less than 3 months "
+      },
+      {
+        "code": "7",
+        "label": "At least 3 months but less than 6 months"
+      },
+      {
+        "code": "8",
+        "label": "At least 6 months but less than 9 months "
+      },
+      {
+        "code": "9",
+        "label": "At least 1 month but less than 3 months "
+      },
+      {
+        "code": "10",
+        "label": "At least 9 months but less than one year "
+      },
+      {
+        "code": "11",
+        "label": "More than one year"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['employment_7'] == 0"
+  },
+  {
+    "field_name": "employment_11",
+    "form_name": "employment",
+    "section_header": "On average, how much money do you have a month to live on?",
+    "field_type": "radio",
+    "field_label": ":",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": " Over £1365"
+      },
+      {
+        "code": "1",
+        "label": "Under £1365"
+      },
+      {
+        "code": "1",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "employment",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]
