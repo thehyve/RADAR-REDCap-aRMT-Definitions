@@ -1538,55 +1538,5 @@
     "matrix_ranking": "",
     "field_annotation": "",
     "evaluated_logic": "responses['short_11'] == 0"
-  },
-  {
-    "field_name": "short_13",
-    "form_name": "short",
-    "section_header": "Finally, to monitor your engagement with app, we would like to know",
-    "field_type": "range",
-    "field_label": "when using the HOME app, how strongly are you experiencing interest?",
-    "select_choices_or_calculations": [
-      {
-        "code": "1",
-        "label": "Not at all"
-      },
-      {
-        "code": "2",
-        "label": "2"
-      },
-      {
-        "code": "3",
-        "label": "3"
-      },
-      {
-        "code": "4",
-        "label": "Moderately"
-      },
-      {
-        "code": "5",
-        "label": "5"
-      },
-      {
-        "code": "6",
-        "label": "6"
-      },
-      {
-        "code": "7",
-        "label": "Extremely"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": ""
   }
 ]
