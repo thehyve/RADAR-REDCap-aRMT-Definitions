@@ -382,7 +382,7 @@
     "form_name": "short",
     "section_header": "Where were you when you received this care?",
     "field_type": "radio",
-    "field_label": "",
+    "field_label": "Select country",
     "select_choices_or_calculations": [
       {
         "code": "0",
@@ -598,7 +598,7 @@
       },
       {
         "code": "53",
-        "label": "Cote D'Ivoire"
+        "label": "Cote D\"Ivoire"
       },
       {
         "code": "54",
@@ -846,7 +846,7 @@
       },
       {
         "code": "115",
-        "label": "Korea, Democratic Peoples Republic of"
+        "label": "Korea, Democratic People\"S Republic of"
       },
       {
         "code": "116",
@@ -862,7 +862,7 @@
       },
       {
         "code": "119",
-        "label": "Lao Peoples Democratic Republic"
+        "label": "Lao People\"S Democratic Republic"
       },
       {
         "code": "120",
@@ -1326,7 +1326,7 @@
       },
       {
         "code": "235",
-        "label": "Vietnam"
+        "label": "Viet Nam"
       },
       {
         "code": "236",
