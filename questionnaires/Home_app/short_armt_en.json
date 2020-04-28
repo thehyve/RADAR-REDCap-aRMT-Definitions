@@ -381,8 +381,8 @@
     "field_name": "short_10",
     "form_name": "short",
     "section_header": "Where were you when you received this care?",
-    "field_type": "need to add world countries",
-    "field_label": "radio",
+    "field_type": "radio",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
