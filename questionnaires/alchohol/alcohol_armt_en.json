@@ -1,0 +1,836 @@
+[
+  {
+    "field_name": "alcohol_1",
+    "form_name": "alcohol",
+    "section_header": "How often do you have a drink containing alcohol?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never"
+      },
+      {
+        "code": "1",
+        "label": " Monthly or less"
+      },
+      {
+        "code": "2",
+        "label": "2-4 times a month"
+      },
+      {
+        "code": "3",
+        "label": "2-3 times a week"
+      },
+      {
+        "code": "4",
+        "label": "4 or more times a week"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "alcohol_2",
+    "form_name": "alcohol",
+    "section_header": "How many standard drinks containing alcohol do you have on a typical day?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "1 or 2"
+      },
+      {
+        "code": "1",
+        "label": "3 or 4"
+      },
+      {
+        "code": "2",
+        "label": "5 or 6"
+      },
+      {
+        "code": "3",
+        "label": "7 to 9"
+      },
+      {
+        "code": "4",
+        "label": "10 or more"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_1'] == 1 || responses['alcohol_1'] == 2 || responses['alcohol_1'] == 3 || responses['alcohol_1'] == 4"
+  },
+  {
+    "field_name": "alcohol_3",
+    "form_name": "alcohol",
+    "section_header": "How often do you have six or more drinks on one occasion?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never"
+      },
+      {
+        "code": "1",
+        "label": "Less than monthly"
+      },
+      {
+        "code": "2",
+        "label": "Weekly"
+      },
+      {
+        "code": "3",
+        "label": "Daily or almost daily"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_1'] == 1 || responses['alcohol_1'] == 2 || responses['alcohol_1'] == 3 || responses['alcohol_1'] == 4"
+  },
+  {
+    "field_name": "alcohol_4",
+    "form_name": "alcohol",
+    "section_header": "Before you moved to the UK, did you drink",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "More"
+      },
+      {
+        "code": "1",
+        "label": "Less"
+      },
+      {
+        "code": "2",
+        "label": "Equal"
+      },
+      {
+        "code": "3",
+        "label": "Don't know"
+      },
+      {
+        "code": "4",
+        "label": "Never drunk alcohol"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "alcohol_5",
+    "form_name": "alcohol",
+    "section_header": "Do you currently smoke tobacco?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Daily"
+      },
+      {
+        "code": "1",
+        "label": "Less than daily"
+      },
+      {
+        "code": "2",
+        "label": "Not at all"
+      },
+      {
+        "code": "3",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "alcohol_6",
+    "form_name": "alcohol",
+    "section_header": "Have you smoked tobacco daily in the past?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_7",
+    "form_name": "alcohol",
+    "section_header": "In the past, have you smoked tobacco?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes, daily"
+      },
+      {
+        "code": "1",
+        "label": "Yes, but less than daily"
+      },
+      {
+        "code": "2",
+        "label": "No, not at all"
+      },
+      {
+        "code": "3",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 2"
+  },
+  {
+    "field_name": "alcohol_8",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "field_type": "slider",
+    "field_label": "Manufactured cigarettes",
+    "range": {
+      "min": "0",
+      "max": "350",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_9",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "field_type": "slider",
+    "field_label": "Hand-rolled cigarettes",
+    "range": {
+      "min": "0",
+      "max": "350",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_10",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "field_type": "slider",
+    "field_label": "Kreteks",
+    "range": {
+      "min": "0",
+      "max": "350",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_11",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "field_type": "slider",
+    "field_label": "Pipes full of tobacco",
+    "range": {
+      "min": "0",
+      "max": "100",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_12",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "field_type": "slider",
+    "field_label": "Cigars, cheroots or cigarillos",
+    "range": {
+      "min": "0",
+      "max": "100",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_13",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "field_type": "slider",
+    "field_label": "Number of water pipe sessions",
+    "range": {
+      "min": "0",
+      "max": "50",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_14",
+    "form_name": "alcohol",
+    "section_header": "On average, how many of the following products do you currently smoke each day?",
+    "field_type": "slider",
+    "field_label": "Other products",
+    "range": {
+      "min": "0",
+      "max": "100",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_5'] == 0 || responses['alcohol_5'] == 1"
+  },
+  {
+    "field_name": "alcohol_15",
+    "form_name": "alcohol",
+    "section_header": "Do you currently use smokeless tobacco?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Daily"
+      },
+      {
+        "code": "1",
+        "label": "Less than daily"
+      },
+      {
+        "code": "2",
+        "label": "Not at all"
+      },
+      {
+        "code": "3",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "alcohol_16",
+    "form_name": "alcohol",
+    "section_header": "Have you used smokeless tobacco daily in the past?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_15'] == 1"
+  },
+  {
+    "field_name": "alcohol_17",
+    "form_name": "alcohol",
+    "section_header": "In the past, have you used smokeless tobacco?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes, daily"
+      },
+      {
+        "code": "1",
+        "label": "Yes, but less than daily"
+      },
+      {
+        "code": "2",
+        "label": "No, not at all"
+      },
+      {
+        "code": "3",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_15'] == 2"
+  },
+  {
+    "field_name": "alcohol_18",
+    "form_name": "alcohol",
+    "section_header": "Before you moved to the UK, did you smoke",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "More"
+      },
+      {
+        "code": "1",
+        "label": "Less"
+      },
+      {
+        "code": "2",
+        "label": "Equal"
+      },
+      {
+        "code": "3",
+        "label": "Don't know"
+      },
+      {
+        "code": "4",
+        "label": "Never smoked"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_1'] == 1 || responses['alcohol_1'] == 2 || responses['alcohol_1'] == 3 || responses['alcohol_1'] == 4"
+  },
+  {
+    "field_name": "alcohol_19",
+    "form_name": "alcohol",
+    "section_header": "Have you used any recreational drugs in the last 12 months?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No, but I have used drugs in the past"
+      },
+      {
+        "code": "2",
+        "label": "Never used drugs"
+      },
+      {
+        "code": "3",
+        "label": "Prefer not to say"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "alcohol_20",
+    "form_name": "alcohol",
+    "section_header": "What have you used?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Amphetamine"
+      },
+      {
+        "code": "1",
+        "label": "Benzodiazepines"
+      },
+      {
+        "code": "2",
+        "label": "Cannabis"
+      },
+      {
+        "code": "3",
+        "label": "Cocaine"
+      },
+      {
+        "code": "4",
+        "label": "Crack cocaine"
+      },
+      {
+        "code": "5",
+        "label": "GHB/GBL"
+      },
+      {
+        "code": "6",
+        "label": "Heroine"
+      },
+      {
+        "code": "7",
+        "label": "Ketamine"
+      },
+      {
+        "code": "8",
+        "label": "MDMA (ecstasy)"
+      },
+      {
+        "code": "9",
+        "label": "Mephedrone"
+      },
+      {
+        "code": "10",
+        "label": "Methamphetamine (crystal, meth, ice, base, speed, tina)"
+      },
+      {
+        "code": "11",
+        "label": "NBOMw drugs"
+      },
+      {
+        "code": "12",
+        "label": "Nitrous oxide"
+      },
+      {
+        "code": "13",
+        "label": "Poppers (amyl nitrite)"
+      },
+      {
+        "code": "14",
+        "label": "Prescription opioids"
+      },
+      {
+        "code": "15",
+        "label": "Synthetic cannabis (spice)"
+      },
+      {
+        "code": "16",
+        "label": "2C drugs"
+      },
+      {
+        "code": "17",
+        "label": "Unknown drug (mystery substance)"
+      },
+      {
+        "code": "18",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_19'] == 0"
+  },
+  {
+    "field_name": "alcohol_21",
+    "form_name": "alcohol",
+    "section_header": "How many days last month did you use?",
+    "field_type": "slider",
+    "field_label": "Days",
+    "range": {
+      "min": "0",
+      "max": "28",
+      "step": "0"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_19'] == 0"
+  },
+  {
+    "field_name": "alcohol_22",
+    "form_name": "alcohol",
+    "section_header": "Will you use / have you used today?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Prefer not to say"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_19'] == 0"
+  },
+  {
+    "field_name": "alcohol_23",
+    "form_name": "alcohol",
+    "section_header": "Before you moved to the UK, did you use drugs",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "More"
+      },
+      {
+        "code": "1",
+        "label": "Less"
+      },
+      {
+        "code": "2",
+        "label": "Equal"
+      },
+      {
+        "code": "3",
+        "label": "Don't know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "alcohol",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['alcohol_19'] == 0 || responses['alcohol_19'] == 1"
+  }
+]

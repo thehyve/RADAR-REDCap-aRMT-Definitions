@@ -1,0 +1,486 @@
+[
+  {
+    "field_name": "demographics_part_2_1",
+    "form_name": "demographics_part_2",
+    "section_header": "Do you have any physical or mental health conditions or illnesses lasting or expected to last 12 months or more?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "demographics_part_2_2",
+    "form_name": "demographics_part_2",
+    "section_header": "Which condition(s)?",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Asthma"
+      },
+      {
+        "code": "1",
+        "label": "Chronic obstructive pulmonary disease (COPD)"
+      },
+      {
+        "code": "2",
+        "label": "Other lung condition"
+      },
+      {
+        "code": "3",
+        "label": "Heart attack or chronic consequences of heart attack"
+      },
+      {
+        "code": "4",
+        "label": "Heart failure"
+      },
+      {
+        "code": "5",
+        "label": "Other heart condition"
+      },
+      {
+        "code": "6",
+        "label": "High blood pressure (hypertension)"
+      },
+      {
+        "code": "7",
+        "label": "Stroke (cerebral bleed, cerebral thrombosis) or chronic consequences of stroke"
+      },
+      {
+        "code": "8",
+        "label": "Alzheimer’s disease or other cause of dementia"
+      },
+      {
+        "code": "9",
+        "label": "Cancer (diagnosis or treatment in the last 5 years)"
+      },
+      {
+        "code": "10",
+        "label": "A neurological condition, such as epilepsy"
+      },
+      {
+        "code": "11",
+        "label": "Osteoarthritis"
+      },
+      {
+        "code": "12",
+        "label": "Other type of arthritis"
+      },
+      {
+        "code": "13",
+        "label": "Low back pain or other chronic back defect"
+      },
+      {
+        "code": "14",
+        "label": "Neck pain or other chronic neck defect "
+      },
+      {
+        "code": "15",
+        "label": "Diabetes"
+      },
+      {
+        "code": "16",
+        "label": "Allergy, such as rhinitis, hay fever, eye inflammation, dermatitis, food allergy or other allergy (allergic asthma excluded)"
+      },
+      {
+        "code": "17",
+        "label": "Rehabilitation from (resolved) Covid-19 infection"
+      },
+      {
+        "code": "18",
+        "label": "Another viral or bacterial infection such as HIV/TB"
+      },
+      {
+        "code": "19",
+        "label": "Liver disease"
+      },
+      {
+        "code": "20",
+        "label": "Urinary incontinence, problems in controlling the bladder"
+      },
+      {
+        "code": "21",
+        "label": "Kidney problems"
+      },
+      {
+        "code": "22",
+        "label": "Depression"
+      },
+      {
+        "code": "23",
+        "label": "Anxiety"
+      },
+      {
+        "code": "24",
+        "label": "Post Traumatic Stress Disorder (PTSD)"
+      },
+      {
+        "code": "25",
+        "label": "Other mental health condition"
+      },
+      {
+        "code": "26",
+        "label": "Deafness or hearing loss"
+      },
+      {
+        "code": "27",
+        "label": "Blindness or Partial sight"
+      },
+      {
+        "code": "28",
+        "label": "A learning disability"
+      },
+      {
+        "code": "29",
+        "label": "Autism or autism spectrum condition"
+      },
+      {
+        "code": "30",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_1'] == 0"
+  },
+  {
+    "field_name": "demographics_part_2_3",
+    "form_name": "demographics_part_2",
+    "section_header": "Do any of these conditions reduce your ability to carry out you day-to-day activities?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes, a lot"
+      },
+      {
+        "code": "1",
+        "label": "Yes, a little"
+      },
+      {
+        "code": "2",
+        "label": "No, not at all"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_1'] == 0"
+  },
+  {
+    "field_name": "demographics_part_2_4",
+    "form_name": "demographics_part_2",
+    "section_header": "How confident are you that you can manage any issues arising from your condition?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Very confident"
+      },
+      {
+        "code": "1",
+        "label": "Fairly confident"
+      },
+      {
+        "code": "2",
+        "label": "Not very confident"
+      },
+      {
+        "code": "3",
+        "label": "Not at all confident"
+      },
+      {
+        "code": "4",
+        "label": "Don’t know"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_1'] == 0"
+  },
+  {
+    "field_name": "demographics_part_2_5",
+    "form_name": "demographics_part_2",
+    "section_header": "In the last 12 month have you had enough support from local services or organisations to help you manage your condition or conditions?",
+    "field_type": "radio",
+    "field_label": "Please think about all services and organisations, not just health services",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes, definitely"
+      },
+      {
+        "code": "1",
+        "label": "Yes, to some extent"
+      },
+      {
+        "code": "2",
+        "label": "No"
+      },
+      {
+        "code": "3",
+        "label": "I haven’t needed support"
+      },
+      {
+        "code": "4",
+        "label": "Don’t know/ can’t say"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_1'] == 0"
+  },
+  {
+    "field_name": "demographics_part_2_6",
+    "form_name": "demographics_part_2",
+    "section_header": "In the last 12 months have you had any unexpected stay in hospital because of your condition(s)?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_1'] == 0"
+  },
+  {
+    "field_name": "demographics_part_2_7",
+    "form_name": "demographics_part_2",
+    "section_header": "Are you currently pregnant?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Not applicable"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Yes"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "demographics_part_2_8",
+    "form_name": "demographics_part_2",
+    "section_header": "If currently pregnant,",
+    "field_type": "radio",
+    "field_label": "How long have you been pregnant?",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Less than 12 weeks"
+      },
+      {
+        "code": "1",
+        "label": "12 to 24 weeks"
+      },
+      {
+        "code": "2",
+        "label": "More than 24 weeks"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_7'] == 2"
+  },
+  {
+    "field_name": "demographics_part_2_9",
+    "form_name": "demographics_part_2",
+    "section_header": "Have you had enough support from health services to help you manage your pregnancy?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes, definitely"
+      },
+      {
+        "code": "1",
+        "label": "Yes, to some extent"
+      },
+      {
+        "code": "2",
+        "label": "No"
+      },
+      {
+        "code": "3",
+        "label": "I haven’t needed support"
+      },
+      {
+        "code": "4",
+        "label": "Don’t know/ can’t say"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_2_7'] == 2"
+  },
+  {
+    "field_name": "demographics_part_2_10",
+    "form_name": "demographics_part_2",
+    "section_header": "How tall are you?",
+    "field_type": "slider",
+    "field_label": "Centimeters",
+    "range": {
+      "min": "100",
+      "max": "250",
+      "step": "5"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "demographics_part_2_11",
+    "form_name": "demographics_part_2",
+    "section_header": "What is your weight?",
+    "field_type": "slider",
+    "field_label": "Kilograms",
+    "range": {
+      "min": "40",
+      "max": "200",
+      "step": "5"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_2",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  }
+]

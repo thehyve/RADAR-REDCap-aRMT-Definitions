@@ -1,0 +1,525 @@
+[
+  {
+    "field_name": "GP_access_1",
+    "form_name": "GP_access",
+    "section_header": "After your first arrival to the UK did you plan/try to register with a GP?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "Haven’t tried to register at GP surgery"
+      },
+      {
+        "code": "2",
+        "label": "Don’t know"
+      },
+      {
+        "code": "3",
+        "label": "Not yet in UK"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GP_access_2",
+    "form_name": "GP_access",
+    "section_header": "How long after you first arrival did you attempt to register with a GP?",
+    "field_type": "slider",
+    "field_label": "Months",
+    "range": {
+      "min": "0",
+      "max": "36",
+      "step": "1"
+    },
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_1'] == 0"
+  },
+  {
+    "field_name": "GP_access_3",
+    "form_name": "GP_access",
+    "section_header": "Who helped/advised you to get registered with a GP?",
+    "field_type": "radio",
+    "field_label": "Multiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Boyfriend/girlfriend/Spouse"
+      },
+      {
+        "code": "1",
+        "label": "Parents/siblings/children"
+      },
+      {
+        "code": "2",
+        "label": "Friends"
+      },
+      {
+        "code": "3",
+        "label": "Other relatives"
+      },
+      {
+        "code": "4",
+        "label": "Self"
+      },
+      {
+        "code": "5",
+        "label": "No one"
+      },
+      {
+        "code": "6",
+        "label": "Others"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_1'] == 0"
+  },
+  {
+    "field_name": "GP_access_4",
+    "form_name": "GP_access",
+    "section_header": "Did you have problems in registering with the GP at that time?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Didn’t have a problem"
+      },
+      {
+        "code": "1",
+        "label": "Had a problem"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_1'] == 0"
+  },
+  {
+    "field_name": "GP_access_5",
+    "form_name": "GP_access",
+    "section_header": "What kind of problem did you encounter?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Couldn’t communicate well"
+      },
+      {
+        "code": "1",
+        "label": "Didn’t have the document necessary"
+      },
+      {
+        "code": "2",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_4'] == 1"
+  },
+  {
+    "field_name": "GP_access_6",
+    "form_name": "GP_access",
+    "section_header": "Are you CURRENTLY registered with a GP in your area?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Registered"
+      },
+      {
+        "code": "1",
+        "label": "Not registered"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": ""
+  },
+  {
+    "field_name": "GP_access_7",
+    "form_name": "GP_access",
+    "section_header": "Could you please choose the reasons deterring/deterred you from GP registration?",
+    "field_type": "checkbox",
+    "field_label": "Mutiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Didn’t see any reason to register"
+      },
+      {
+        "code": "1",
+        "label": "Decided to go and register only if I get sick"
+      },
+      {
+        "code": "2",
+        "label": "Don’t know how to register"
+      },
+      {
+        "code": "3",
+        "label": "Didn’t registered as living in current address for less than 3 months"
+      },
+      {
+        "code": "4",
+        "label": "Don’t like taking western medicine "
+      },
+      {
+        "code": "5",
+        "label": "Have a feeling that health care in UK is too superior for me"
+      },
+      {
+        "code": "6",
+        "label": "Afraid of being discriminated"
+      },
+      {
+        "code": "7",
+        "label": "Not sure if I have to pay for the consultation or not"
+      },
+      {
+        "code": "8",
+        "label": "Don’t have valid immigration document"
+      },
+      {
+        "code": "9",
+        "label": "Can’t speak English to communicate at surgery"
+      },
+      {
+        "code": "10",
+        "label": "Afraid of losing wages while doing registration"
+      },
+      {
+        "code": "11",
+        "label": "The GP didn’t let me register"
+      },
+      {
+        "code": "12",
+        "label": "None of the above"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_6'] == 1"
+  },
+  {
+    "field_name": "GP_access_8",
+    "form_name": "GP_access",
+    "section_header": "When you had health problem the last time, did you go to GP/clinic?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Never had had a health problem/never been to the GP"
+      },
+      {
+        "code": "1",
+        "label": "Went to GP"
+      },
+      {
+        "code": "2",
+        "label": "Didn’t go to the GP"
+      },
+      {
+        "code": "3",
+        "label": "Went to A&E"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_6'] == 0"
+  },
+  {
+    "field_name": "GP_access_9",
+    "form_name": "GP_access",
+    "section_header": "what is your level of satisfaction on GP’s consultation during your last visit?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Fully satisfied"
+      },
+      {
+        "code": "1",
+        "label": "Considerably satisfied"
+      },
+      {
+        "code": "2",
+        "label": "Moderately satisfied "
+      },
+      {
+        "code": "3",
+        "label": "A little satisfied"
+      },
+      {
+        "code": "4",
+        "label": "Not satisfied at all"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_8'] == 1"
+  },
+  {
+    "field_name": "GP_access_10",
+    "form_name": "GP_access",
+    "section_header": "What is your level of satisfaction concerning the information provided by your GP regarding your health problem?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Fully satisfied"
+      },
+      {
+        "code": "1",
+        "label": "Considerably satisfied"
+      },
+      {
+        "code": "2",
+        "label": "Moderately satisfied "
+      },
+      {
+        "code": "3",
+        "label": "A little satisfied"
+      },
+      {
+        "code": "4",
+        "label": "Not satisfied at all"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_8'] == 1"
+  },
+  {
+    "field_name": "GP_access_11",
+    "form_name": "GP_access",
+    "section_header": "Could you communicate well with the GP?",
+    "field_type": "radio",
+    "field_label": ":",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Could communicate well"
+      },
+      {
+        "code": "1",
+        "label": "Couldn't communicate well"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_8'] == 1"
+  },
+  {
+    "field_name": "GP_access_12",
+    "form_name": "GP_access",
+    "section_header": "Do you want to use interpreter services during your visit to a GP?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Want to use interpreter service"
+      },
+      {
+        "code": "1",
+        "label": "Don’t want to use interpreter service"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_6'] == 0"
+  },
+  {
+    "field_name": "GP_access_13",
+    "form_name": "GP_access",
+    "section_header": "Did you use interpreter services during your last GP consultation?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Used interpreter service"
+      },
+      {
+        "code": "1",
+        "label": "Didn’t use interpreter service"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_8'] == 1"
+  },
+  {
+    "field_name": "GP_access_14",
+    "form_name": "GP_access",
+    "section_header": "Have you been offered interpreter service during your visit to a GP?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Have been offered interpreter service"
+      },
+      {
+        "code": "1",
+        "label": "Haven't been offered interpreter service"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "GP_access",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['GP_access_6'] == 0"
+  }
+]
