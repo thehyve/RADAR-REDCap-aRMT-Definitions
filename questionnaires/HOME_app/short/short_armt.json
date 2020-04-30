@@ -1379,15 +1379,15 @@
     "field_label": "Choose one of THREE different types of SMILEY faces",
     "select_choices_or_calculations": [
       {
-        "code": "😞",
+        "code": "",
         "label": "😞"
       },
       {
-        "code": "😐",
+        "code": "",
         "label": "😐"
       },
       {
-        "code": "😀",
+        "code": "",
         "label": "😀"
       }
     ],
