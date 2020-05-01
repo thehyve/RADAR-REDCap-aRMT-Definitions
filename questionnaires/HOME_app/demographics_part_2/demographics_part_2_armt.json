@@ -110,7 +110,7 @@
       },
       {
         "code": "18",
-        "label": "Another viral or bacterial infection such as HIV/TB"
+        "label": "Another viral or bacterial infection such as HIV or TB"
       },
       {
         "code": "19",
@@ -178,7 +178,7 @@
   {
     "field_name": "demographics_part_2_3",
     "form_name": "demographics_part_2",
-    "section_header": "Do any of these conditions reduce your ability to carry out you day-to-day activities?",
+    "section_header": "Do any of these conditions reduce your ability to carry out your day-to-day activities?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -254,7 +254,7 @@
   {
     "field_name": "demographics_part_2_5",
     "form_name": "demographics_part_2",
-    "section_header": "In the last 12 month have you had enough support from local services or organisations to help you manage your condition or conditions?",
+    "section_header": "In the last 12 months have you had enough support from local services or organisations to help you manage your condition(s)?",
     "field_type": "radio",
     "field_label": "Please think about all services and organisations, not just health services",
     "select_choices_or_calculations": [
@@ -442,7 +442,7 @@
     "range": {
       "min": "100",
       "max": "250",
-      "step": "5"
+      "step": "1"
     },
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -467,7 +467,7 @@
     "range": {
       "min": "40",
       "max": "200",
-      "step": "5"
+      "step": "1"
     },
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",

@@ -3,19 +3,19 @@
     "field_name": "short_1",
     "form_name": "short",
     "section_header": "We would like to know how good or bad your health has been in the last 3 days",
-    "field_type": "range",
-    "field_label": "Choose one of THREE different types of SMILEY faces",
+    "field_type": "radio",
+    "field_label": "Choose the most appropriate smiley face",
     "select_choices_or_calculations": [
       {
-        "code": "1",
+        "code": "0",
         "label": "😞"
       },
       {
-        "code": "2",
+        "code": "1",
         "label": "😐"
       },
       {
-        "code": "3",
+        "code": "2",
         "label": "😀"
       }
     ],
@@ -88,7 +88,7 @@
       },
       {
         "code": "3",
-        "label": "Directly via emergency ambulance via phone number 999"
+        "label": "Directly via emergency ambulance"
       },
       {
         "code": "4",
@@ -406,7 +406,7 @@
       },
       {
         "code": "5",
-        "label": "AndorrA"
+        "label": "Andorra"
       },
       {
         "code": "6",
@@ -1110,7 +1110,7 @@
       },
       {
         "code": "181",
-        "label": "RWANDA"
+        "label": "Rwanda"
       },
       {
         "code": "182",
@@ -1375,19 +1375,19 @@
     "field_name": "short_11",
     "form_name": "short",
     "section_header": "We would like to know how easy it has been for you to access this care.",
-    "field_type": "range",
-    "field_label": "Choose one of THREE different types of SMILEY faces",
+    "field_type": "radio",
+    "field_label": "Choose the most appropriate smiley face",
     "select_choices_or_calculations": [
       {
-        "code": "1",
+        "code": "0",
         "label": "😞"
       },
       {
-        "code": "2",
+        "code": "1",
         "label": "😐"
       },
       {
-        "code": "3",
+        "code": "2",
         "label": "😀"
       }
     ],
@@ -1537,6 +1537,6 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_11'] == 1"
+    "evaluated_logic": "responses['short_11'] == 0"
   }
 ]
