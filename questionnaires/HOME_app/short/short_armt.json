@@ -7,15 +7,15 @@
     "field_label": "Choose one of THREE different types of SMILEY faces",
     "select_choices_or_calculations": [
       {
-        "code": "0",
+        "code": "1",
         "label": "😞"
       },
       {
-        "code": "1",
+        "code": "2",
         "label": "😐"
       },
       {
-        "code": "2",
+        "code": "3",
         "label": "😀"
       }
     ],
@@ -350,6 +350,174 @@
   {
     "field_name": "short_9",
     "form_name": "short",
+    "section_header": "We would like to know how easy it has been for you to access this care.",
+    "field_type": "range",
+    "field_label": "Choose one of THREE different types of SMILEY faces",
+    "select_choices_or_calculations": [
+      {
+        "code": "1",
+        "label": "😞"
+      },
+      {
+        "code": "2",
+        "label": "😐"
+      },
+      {
+        "code": "3",
+        "label": "😀"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0"
+  },
+  {
+    "field_name": "short_10",
+    "form_name": "short",
+    "section_header": "Why was it not easy?",
+    "field_type": "radio",
+    "field_label": "Mutiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "I didn’t feel I was taken seriously enough"
+      },
+      {
+        "code": "1",
+        "label": "I felt ignored"
+      },
+      {
+        "code": "2",
+        "label": "Long wait to get through on the phone for an appointment"
+      },
+      {
+        "code": "3",
+        "label": "Difficult telephone/online booking system"
+      },
+      {
+        "code": "4",
+        "label": "Unhelpful booking staff/receptionists"
+      },
+      {
+        "code": "5",
+        "label": "There weren’t any appointments available for the time or day I wanted"
+      },
+      {
+        "code": "6",
+        "label": "The appointment was at too short notice"
+      },
+      {
+        "code": "7",
+        "label": "The appointment wasn’t soon enough"
+      },
+      {
+        "code": "8",
+        "label": "I couldn’t book ahead"
+      },
+      {
+        "code": "9",
+        "label": "There weren’t any appointments at the place I wanted"
+      },
+      {
+        "code": "10",
+        "label": "The appointment was too far away / too difficult to get to"
+      },
+      {
+        "code": "11",
+        "label": "Access for disabled persons was limited or non-existent"
+      },
+      {
+        "code": "12",
+        "label": "I couldn’t see my preferred care provider"
+      },
+      {
+        "code": "13",
+        "label": "The type of appointment I wanted was not available"
+      },
+      {
+        "code": "14",
+        "label": "I am not registered with the NHS"
+      },
+      {
+        "code": "15",
+        "label": "I am unable to register with NHS"
+      },
+      {
+        "code": "16",
+        "label": "I didn’t know how to register"
+      },
+      {
+        "code": "17",
+        "label": "I found the registration process difficult"
+      },
+      {
+        "code": "18",
+        "label": "I don’t like or I am uncomfortable with western medicine"
+      },
+      {
+        "code": "19",
+        "label": "I have a feeling that health care in the UK is too superior for me"
+      },
+      {
+        "code": "20",
+        "label": "I am afraid of being discriminated"
+      },
+      {
+        "code": "21",
+        "label": "I am not sure if I have to pay for the care or not"
+      },
+      {
+        "code": "22",
+        "label": "I don’t have valid immigration documents"
+      },
+      {
+        "code": "23",
+        "label": "I feel I don’t speak English good enough to communicate well"
+      },
+      {
+        "code": "24",
+        "label": "Interpreter services were not or only partially available"
+      },
+      {
+        "code": "25",
+        "label": "I am afraid of losing wages while getting care"
+      },
+      {
+        "code": "26",
+        "label": "Getting care is difficult for me as I am a part-time or full time carer for children/relative"
+      },
+      {
+        "code": "27",
+        "label": "Another reason"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_9'] == 0"
+  },
+  {
+    "field_name": "short_11",
+    "form_name": "short",
     "section_header": "Did you seek care for this problem outside of the UK?",
     "field_type": "radio",
     "field_label": "",
@@ -378,7 +546,7 @@
     "evaluated_logic": "responses['short_2'] == 0"
   },
   {
-    "field_name": "short_10",
+    "field_name": "short_12",
     "form_name": "short",
     "section_header": "Where were you when you received this care?",
     "field_type": "radio",
@@ -1355,174 +1523,6 @@
       {
         "code": "242",
         "label": "Zimbabwe"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_9'] == 0"
-  },
-  {
-    "field_name": "short_11",
-    "form_name": "short",
-    "section_header": "We would like to know how easy it has been for you to access this care.",
-    "field_type": "range",
-    "field_label": "Choose one of THREE different types of SMILEY faces",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "😞"
-      },
-      {
-        "code": "1",
-        "label": "😐"
-      },
-      {
-        "code": "2",
-        "label": "😀"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_12",
-    "form_name": "short",
-    "section_header": "Why was it not easy?",
-    "field_type": "radio",
-    "field_label": "Mutiple options possible",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "I didn’t feel I was taken seriously enough"
-      },
-      {
-        "code": "1",
-        "label": "I felt ignored"
-      },
-      {
-        "code": "2",
-        "label": "Long wait to get through on the phone for an appointment"
-      },
-      {
-        "code": "3",
-        "label": "Difficult telephone/online booking system"
-      },
-      {
-        "code": "4",
-        "label": "Unhelpful booking staff/receptionists"
-      },
-      {
-        "code": "5",
-        "label": "There weren’t any appointments available for the time or day I wanted"
-      },
-      {
-        "code": "6",
-        "label": "The appointment was at too short notice"
-      },
-      {
-        "code": "7",
-        "label": "The appointment wasn’t soon enough"
-      },
-      {
-        "code": "8",
-        "label": "I couldn’t book ahead"
-      },
-      {
-        "code": "9",
-        "label": "There weren’t any appointments at the place I wanted"
-      },
-      {
-        "code": "10",
-        "label": "The appointment was too far away / too difficult to get to"
-      },
-      {
-        "code": "11",
-        "label": "Access for disabled persons was limited or non-existent"
-      },
-      {
-        "code": "12",
-        "label": "I couldn’t see my preferred care provider"
-      },
-      {
-        "code": "13",
-        "label": "The type of appointment I wanted was not available"
-      },
-      {
-        "code": "14",
-        "label": "I am not registered with the NHS"
-      },
-      {
-        "code": "15",
-        "label": "I am unable to register with NHS"
-      },
-      {
-        "code": "16",
-        "label": "I didn’t know how to register"
-      },
-      {
-        "code": "17",
-        "label": "I found the registration process difficult"
-      },
-      {
-        "code": "18",
-        "label": "I don’t like or I am uncomfortable with western medicine"
-      },
-      {
-        "code": "19",
-        "label": "I have a feeling that health care in the UK is too superior for me"
-      },
-      {
-        "code": "20",
-        "label": "I am afraid of being discriminated"
-      },
-      {
-        "code": "21",
-        "label": "I am not sure if I have to pay for the care or not"
-      },
-      {
-        "code": "22",
-        "label": "I don’t have valid immigration documents"
-      },
-      {
-        "code": "23",
-        "label": "I feel I don’t speak English good enough to communicate well"
-      },
-      {
-        "code": "24",
-        "label": "Interpreter services were not or only partially available"
-      },
-      {
-        "code": "25",
-        "label": "I am afraid of losing wages while getting care"
-      },
-      {
-        "code": "26",
-        "label": "Getting care is difficult for me as I am a part-time or full time carer for children/relative"
-      },
-      {
-        "code": "27",
-        "label": "Another reason"
       }
     ],
     "field_note": "",
