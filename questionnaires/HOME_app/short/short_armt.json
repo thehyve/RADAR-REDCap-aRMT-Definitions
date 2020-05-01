@@ -513,7 +513,7 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_9'] == 0"
+    "evaluated_logic": "responses['short_9'] == 1"
   },
   {
     "field_name": "short_11",
