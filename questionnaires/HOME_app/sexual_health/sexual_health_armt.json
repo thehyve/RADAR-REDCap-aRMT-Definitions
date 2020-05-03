@@ -486,7 +486,7 @@
     "form_name": "sexual_health",
     "section_header": "Have you ever used an online STI testing service?",
     "field_type": "radio",
-    "field_label": "(Please do not include just booking an appointment online)",
+    "field_label": "(Please do not include that you just booked an appointment online, but actually used an online service)",
     "select_choices_or_calculations": [
       {
         "code": "0",

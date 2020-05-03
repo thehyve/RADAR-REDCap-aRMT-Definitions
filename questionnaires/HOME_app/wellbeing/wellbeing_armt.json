@@ -332,7 +332,7 @@
     "form_name": "wellbeing",
     "section_header": "During the PAST 4 WEEKS, how much did PAIN interfere with your normal work (including both work outside the home and housework)?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
@@ -408,7 +408,7 @@
     "form_name": "wellbeing",
     "section_header": "Have you felt calm and peaceful?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
@@ -454,7 +454,7 @@
     "form_name": "wellbeing",
     "section_header": "Did you have a lot of energy?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
@@ -500,7 +500,7 @@
     "form_name": "wellbeing",
     "section_header": "Have you felt downhearted and blue?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
@@ -546,7 +546,7 @@
     "form_name": "wellbeing",
     "section_header": "During the PAST 4 WEEKS, how much of the time has your PHYSICAL HEALTH OR EMOTIONAL PROBLEMS interfered with your social activities (like visiting with friends, relatives, etc.)?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
