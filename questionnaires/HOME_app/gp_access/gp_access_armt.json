@@ -62,7 +62,7 @@
     "field_name": "GP_access_3",
     "form_name": "GP_access",
     "section_header": "Who helped/advised you to get registered with a GP?",
-    "field_type": "radio",
+    "field_type": "checkbox",
     "field_label": "Multiple options possible",
     "select_choices_or_calculations": [
       {
@@ -317,7 +317,7 @@
   {
     "field_name": "GP_access_9",
     "form_name": "GP_access",
-    "section_header": "what is your level of satisfaction on GP’s consultation during your last visit?",
+    "section_header": "What is your level of satisfaction on GP’s consultation during your last visit?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -403,7 +403,7 @@
     "form_name": "GP_access",
     "section_header": "Could you communicate well with the GP?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",

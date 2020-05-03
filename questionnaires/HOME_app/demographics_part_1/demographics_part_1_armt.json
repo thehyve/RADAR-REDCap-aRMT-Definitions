@@ -1039,8 +1039,8 @@
     "field_name": "demographics_part_1_9",
     "form_name": "demographics_part_1",
     "section_header": "Which one(s)?",
-    "field_type": "radio",
-    "field_label": "",
+    "field_type": "checkbox",
+    "field_label": "Multiple options possible",
     "select_choices_or_calculations": [
       {
         "code": "0",

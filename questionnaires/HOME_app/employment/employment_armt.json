@@ -462,7 +462,7 @@
     "form_name": "employment",
     "section_header": "On average, how much money do you have a month to live on?",
     "field_type": "radio",
-    "field_label": ":",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
