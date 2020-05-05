@@ -8,7 +8,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Very Good"
+        "label": "Very good"
       },
       {
         "code": "1",
@@ -40,21 +40,17 @@
   {
     "field_name": "wellbeing_2",
     "form_name": "wellbeing",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "The following two questions are about activities you might do during a typical day. Does YOUR HEALTH NOW LIMIT YOU in these activities? If so, how much?"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -80,15 +76,15 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Yes, Limited A Lot"
+        "label": "Yes, limited a lot"
       },
       {
         "code": "1",
-        "label": "Yes, Limited A Little"
+        "label": "Yes, limited a little"
       },
       {
         "code": "2",
-        "label": "No, Not Limited At All"
+        "label": "No, not limited at all"
       }
     ],
     "field_note": "",
@@ -114,15 +110,15 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Yes, Limited A Lot"
+        "label": "Yes, limited a lot"
       },
       {
         "code": "1",
-        "label": "Yes, Limited A Little"
+        "label": "Yes, limited a little"
       },
       {
         "code": "2",
-        "label": "No, Not Limited At All"
+        "label": "No, not limited at all"
       }
     ],
     "field_note": "",
@@ -142,21 +138,17 @@
   {
     "field_name": "wellbeing_5",
     "form_name": "wellbeing",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "During the PAST 4 WEEKS have you had any of the following problems with your work or other regular activities AS A RESULT OF YOUR PHYSICAL HEALTH?"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -236,21 +228,17 @@
   {
     "field_name": "wellbeing_8",
     "form_name": "wellbeing",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "During the PAST 4 WEEKS, were you limited in the kind of work you do or other regular activities AS A RESULT OF ANY EMOTIONAL PROBLEMS (such as feeling depressed or anxious)?"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -336,11 +324,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Not At All"
+        "label": "Not at all"
       },
       {
         "code": "1",
-        "label": "A Little Bit"
+        "label": "A little bit"
       },
       {
         "code": "1",
@@ -348,7 +336,7 @@
       },
       {
         "code": "2",
-        "label": "Quite A Bit"
+        "label": "Quite a bit"
       },
       {
         "code": "3",
@@ -372,21 +360,17 @@
   {
     "field_name": "wellbeing_12",
     "form_name": "wellbeing",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "The next three questions are about how you feel and how things have been DURING THE PAST 4 WEEKS. For each question, please give the one answer that comes closest to the way you have been feeling. How much of the time during the PAST 4 WEEKS:"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -412,27 +396,27 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "All of the Time"
+        "label": "All of the time"
       },
       {
         "code": "1",
-        "label": "Most of the Time"
+        "label": "Most of the time"
       },
       {
         "code": "1",
-        "label": "A Good Bit of the Time"
+        "label": "A good bit of the time"
       },
       {
         "code": "2",
-        "label": "Some of the Time"
+        "label": "Some of the time"
       },
       {
         "code": "3",
-        "label": "A Little of the Time"
+        "label": "A little of the time"
       },
       {
         "code": "4",
-        "label": "None of the Time"
+        "label": "None of the time"
       }
     ],
     "field_note": "",
@@ -458,27 +442,27 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "All of the Time"
+        "label": "All of the time"
       },
       {
         "code": "1",
-        "label": "Most of the Time"
+        "label": "Most of the time"
       },
       {
         "code": "1",
-        "label": "A Good Bit of the Time"
+        "label": "A good bit of the time"
       },
       {
         "code": "2",
-        "label": "Some of the Time"
+        "label": "Some of the time"
       },
       {
         "code": "3",
-        "label": "A Little of the Time"
+        "label": "A little of the time"
       },
       {
         "code": "4",
-        "label": "None of the Time"
+        "label": "None of the time"
       }
     ],
     "field_note": "",
@@ -550,27 +534,27 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "All of the Time"
+        "label": "All of the time"
       },
       {
         "code": "1",
-        "label": "Most of the Time"
+        "label": "Most of the time"
       },
       {
         "code": "1",
-        "label": "A Good Bit of the Time"
+        "label": "A good bit of the time"
       },
       {
         "code": "2",
-        "label": "Some of the Time"
+        "label": "Some of the time"
       },
       {
         "code": "3",
-        "label": "A Little of the Time"
+        "label": "A little of the time"
       },
       {
         "code": "4",
-        "label": "None of the Time"
+        "label": "None of the time"
       }
     ],
     "field_note": "",
