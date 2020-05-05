@@ -2,21 +2,17 @@
   {
     "field_name": "health_literacy_1",
     "form_name": "health_literacy",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "The following questions are about how it is for you to find, understand and use information related to health, illness and medical care in the UK."
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
