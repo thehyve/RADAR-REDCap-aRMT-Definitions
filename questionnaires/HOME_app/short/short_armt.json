@@ -250,7 +250,7 @@
       },
       {
         "code": "6",
-        "label": "NHS “GP at Hand” smartphone app"
+        "label": "NHS “GP at Hand” smartphone app or another remote online GP service"
       },
       {
         "code": "7",
@@ -1478,7 +1478,7 @@
       },
       {
         "code": "15",
-        "label": "I am unable to register with NHS"
+        "label": "I am unable to register with the NHS"
       },
       {
         "code": "16",
@@ -1498,7 +1498,7 @@
       },
       {
         "code": "20",
-        "label": "I am afraid of being discriminated"
+        "label": "I am afraid of being discriminated against"
       },
       {
         "code": "21",
@@ -1510,7 +1510,7 @@
       },
       {
         "code": "23",
-        "label": "I feel I don’t speak English good enough to communicate well"
+        "label": "I feel I don’t speak English well enough to communicate properly"
       },
       {
         "code": "24",

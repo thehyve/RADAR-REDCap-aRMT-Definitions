@@ -2,7 +2,7 @@
   {
     "field_name": "GP_access_1",
     "form_name": "GP_access",
-    "section_header": "After your first arrival to the UK did you plan/try to register with a GP?",
+    "section_header": "After you first arrived in the UK, did you plan/try to register with a GP?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -12,7 +12,7 @@
       },
       {
         "code": "1",
-        "label": "Haven’t tried to register at GP surgery"
+        "label": "Have not tried to register at GP surgery"
       },
       {
         "code": "2",
@@ -36,7 +36,7 @@
   {
     "field_name": "GP_access_2",
     "form_name": "GP_access",
-    "section_header": "How long after you first arrival did you attempt to register with a GP?",
+    "section_header": "How long after you first arrived did you attempt to register with a GP?",
     "field_type": "slider",
     "field_label": "Months",
     "range": {
@@ -117,7 +117,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Didn’t have a problem"
+        "label": "Did not have a problem"
       },
       {
         "code": "1",
@@ -147,11 +147,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Couldn’t communicate well"
+        "label": "Could not communicate well"
       },
       {
         "code": "1",
-        "label": "Didn’t have the document necessary"
+        "label": "Did not have the document necessary"
       },
       {
         "code": "2",
@@ -211,7 +211,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Didn’t see any reason to register"
+        "label": "Did not see any reason to register"
       },
       {
         "code": "1",
@@ -223,7 +223,7 @@
       },
       {
         "code": "3",
-        "label": "Didn’t registered as living in current address for less than 3 months"
+        "label": "Did not register as living in current address for less than 3 months"
       },
       {
         "code": "4",
@@ -247,7 +247,7 @@
       },
       {
         "code": "9",
-        "label": "Can’t speak English to communicate at surgery"
+        "label": "Cannot speak English well enough to communicate at the surgery"
       },
       {
         "code": "10",
@@ -255,7 +255,7 @@
       },
       {
         "code": "11",
-        "label": "The GP didn’t let me register"
+        "label": "The GP did not let me register"
       },
       {
         "code": "12",
@@ -279,7 +279,7 @@
   {
     "field_name": "GP_access_8",
     "form_name": "GP_access",
-    "section_header": "When you had health problem the last time, did you go to GP/clinic?",
+    "section_header": "When you had a health problem the last time, did you go to a GP/clinic?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -293,7 +293,7 @@
       },
       {
         "code": "2",
-        "label": "Didn’t go to the GP"
+        "label": "Did not go to the GP"
       },
       {
         "code": "3",
@@ -317,7 +317,7 @@
   {
     "field_name": "GP_access_9",
     "form_name": "GP_access",
-    "section_header": "What is your level of satisfaction on GP’s consultation during your last visit?",
+    "section_header": "What is your level of satisfaction with the GP’s consultation during your last visit?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -407,11 +407,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Could communicate well"
+        "label": "Yes"
       },
       {
         "code": "1",
-        "label": "Couldn't communicate well"
+        "label": "No"
       }
     ],
     "field_note": "",
@@ -431,7 +431,7 @@
   {
     "field_name": "GP_access_12",
     "form_name": "GP_access",
-    "section_header": "Do you want to use interpreter services during your visit to a GP?",
+    "section_header": "Would you want to use interpreter services during your visit to a GP?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -471,7 +471,7 @@
       },
       {
         "code": "1",
-        "label": "Didn’t use interpreter service"
+        "label": "Did not use interpreter service"
       }
     ],
     "field_note": "",
@@ -491,7 +491,7 @@
   {
     "field_name": "GP_access_14",
     "form_name": "GP_access",
-    "section_header": "Have you been offered interpreter service during your visit to a GP?",
+    "section_header": "Have you been offered interpreter services during your visit to a GP?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -501,7 +501,7 @@
       },
       {
         "code": "1",
-        "label": "Haven't been offered interpreter service"
+        "label": "Have not been offered interpreter service"
       }
     ],
     "field_note": "",
