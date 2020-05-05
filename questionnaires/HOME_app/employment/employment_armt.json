@@ -2,7 +2,7 @@
   {
     "field_name": "employment_1",
     "form_name": "employment",
-    "section_header": "Thinking of the last twelve months, have you had any accident resulting in injury at work or in the course of your (commute to) work?",
+    "section_header": "Thinking of the last 12 months, have you had any accident resulting in injury at work or in the course of your commute to work?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -145,7 +145,7 @@
   {
     "field_name": "employment_5",
     "form_name": "employment",
-    "section_header": "Thinking of your most recent injury at work, how would you describe the injury you received?",
+    "section_header": "Thinking of your most recent injury at work, how would you describe the injury you sustained?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -155,7 +155,7 @@
       },
       {
         "code": "1",
-        "label": "Fracture/broken bones (not cartilage in nose - count as superficial)"
+        "label": "Fracture/broken bones (excluding the nose)"
       },
       {
         "code": "2",
@@ -265,7 +265,7 @@
   {
     "field_name": "employment_7",
     "form_name": "employment",
-    "section_header": "Within the last 12 months did you have any physical or mental health problems- other than injuries - that was caused by your work?",
+    "section_header": "Within the last 12 months, did you have any physical or mental health problems- other than injuries - that were caused by your work?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -390,7 +390,7 @@
   {
     "field_name": "employment_10",
     "form_name": "employment",
-    "section_header": "In the last twelve months, how much time off work have you had because of this/these health problem(s)?",
+    "section_header": "In the last 12 months, how much time off work have you had because of this/these health problem(s)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
