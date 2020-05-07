@@ -7,16 +7,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "Think about all the vigorous activities that you did in the last 7 days. Vigorous physical activities refer to activities that take hard physical effort and make you breathe much harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time."
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -120,16 +116,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "Think about all the moderate activities that you did in the last 7 days. Moderate activities refer to activities that take moderate physical effort and make you breathe somewhat harder than normal. Think only about those physical activities that you did for at least 10 minutes at a time."
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -233,16 +225,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "Think about the time you spent walking in the last 7 days. This includes at work and at home, walking to travel from place to place, and any other walking that you have done solely for recreation, sport, exercise, or leisure."
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -346,16 +334,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "The next question is about the time you spent sitting on weekdays during the last 7 days. Include time spent at work, at home, while doing course work and during leisure time. This may include time spent sitting at a desk, visiting friends, reading, or sitting or lying down to watch television."
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -405,16 +389,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "The next questions refer to specific types of activity/exercise during the past twelve months "
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -477,16 +457,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "In a typical week during the past 12 months, how many hours did you spend on each of the following activities?"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",

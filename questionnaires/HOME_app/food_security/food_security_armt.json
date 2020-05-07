@@ -7,16 +7,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "For the following two statements, please tell us whether the statement was often true, sometimes true, or never true for (you/your household) in the last 12 months"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",

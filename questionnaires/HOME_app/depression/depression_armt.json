@@ -222,7 +222,7 @@
   {
     "field_name": "depression_7",
     "form_name": "depression",
-    "section_header": "Feeling bad about yourself‐or that you are a failure or have let yourself or your family down?",
+    "section_header": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -298,7 +298,7 @@
   {
     "field_name": "depression_9",
     "form_name": "depression",
-    "section_header": "Moving or speaking so slowly that other people could have noticed? Or the opposite— being so fidgety or restless that you have been moving around a lot more than usual?",
+    "section_header": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [

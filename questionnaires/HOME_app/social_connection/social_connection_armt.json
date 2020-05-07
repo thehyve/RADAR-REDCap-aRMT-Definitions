@@ -7,16 +7,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "The next few questions are about people you feel close to, including relatives, friends and acquaintances"
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -141,16 +137,12 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "We would now like you to think about your family and friends. By family we mean those who live with you as well as those elsewhere. Here are some comments people have made about their family and their friends. For each statement, please say whether it is not true, partly true or certainly true for you."
       },
       {
-        "code": "Click 'next' to continue",
-        "label": ""
+        "code": "",
+        "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
