@@ -1250,7 +1250,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "General Practice (GP) (including home visit)"
+        "label": "General Practice (GP)"
       },
       {
         "code": "1",
@@ -1369,7 +1369,7 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_7'] == 0 || responses['short_8'] == 0 || responses['short_9'] == 0"
+    "evaluated_logic": "responses['short_7'] == 0 || responses['short_8'] == 0"
   },
   {
     "field_name": "short_11",
