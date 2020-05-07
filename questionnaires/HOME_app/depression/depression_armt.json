@@ -7,11 +7,7 @@
     "field_label": "Read this carefully",
     "select_choices_or_calculations": [
       {
-        "code": "0",
-        "label": ""
-      },
-      {
-        "code": "1",
+        "code": "",
         "label": "Over the last 2 WEEKS, how often have you been bothered by any of the following problems?"
       },
       {
