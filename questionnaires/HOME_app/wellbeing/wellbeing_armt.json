@@ -488,27 +488,27 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "All of the Time"
+        "label": "All of the time"
       },
       {
         "code": "1",
-        "label": "Most of the Time"
+        "label": "Most of the time"
       },
       {
         "code": "1",
-        "label": "A Good Bit of the Time"
+        "label": "A good bit of the time"
       },
       {
         "code": "2",
-        "label": "Some of the Time"
+        "label": "Some of the time"
       },
       {
         "code": "3",
-        "label": "A Little of the Time"
+        "label": "A little of the time"
       },
       {
         "code": "4",
-        "label": "None of the Time"
+        "label": "None of the time"
       }
     ],
     "field_note": "",
