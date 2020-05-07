@@ -70,29 +70,17 @@
   {
     "field_name": "short_3",
     "form_name": "short",
-    "section_header": "How was this care planned or arranged?",
+    "section_header": "Did this happen outside of the UK (abroad)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "I made a phone call or booked online, then I spoke to or saw someone"
+        "label": "Yes"
       },
       {
         "code": "1",
-        "label": "It was already planned / booked in advance for me (routine appointment)"
-      },
-      {
-        "code": "2",
-        "label": "I just walked in"
-      },
-      {
-        "code": "3",
-        "label": "Directly via emergency ambulance"
-      },
-      {
-        "code": "4",
-        "label": "Other"
+        "label": "No"
       }
     ],
     "field_note": "",
@@ -111,278 +99,6 @@
   },
   {
     "field_name": "short_4",
-    "form_name": "short",
-    "section_header": "Did you or a relative/friend call the ambulance?",
-    "field_type": "radio",
-    "field_label": "",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "Yes"
-      },
-      {
-        "code": "1",
-        "label": "No"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": " short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_3'] == 3"
-  },
-  {
-    "field_name": "short_5",
-    "form_name": "short",
-    "section_header": "Where/from whom did you get care?",
-    "field_type": "radio",
-    "field_label": "",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "General Practice (GP) (including home visit)"
-      },
-      {
-        "code": "1",
-        "label": "A&E only"
-      },
-      {
-        "code": "2",
-        "label": "A&E and Inpatient care"
-      },
-      {
-        "code": "3",
-        "label": "Hospital day care or day procedure"
-      },
-      {
-        "code": "4",
-        "label": "Outpatient clinic at hospital (consultation only)"
-      },
-      {
-        "code": "5",
-        "label": "A mental health care professional"
-      },
-      {
-        "code": "6",
-        "label": "Home visit by (district) nurse"
-      },
-      {
-        "code": "7",
-        "label": "Home carers (not nursing)"
-      },
-      {
-        "code": "8",
-        "label": "Pharmacy"
-      },
-      {
-        "code": "9",
-        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
-      },
-      {
-        "code": "10",
-        "label": "Traditional healer"
-      },
-      {
-        "code": "11",
-        "label": "Charity"
-      },
-      {
-        "code": "12",
-        "label": "Other medical care"
-      },
-      {
-        "code": "13",
-        "label": "Other non-medical care"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_6",
-    "form_name": "short",
-    "section_header": "What type of GP service did you use?",
-    "field_type": "radio",
-    "field_label": "",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "Routine GP appointment booked in advance (including seeing a nurse)"
-      },
-      {
-        "code": "1",
-        "label": "GP same day urgent appointment including seeing GP/nurse in person or phone/video call back from GP"
-      },
-      {
-        "code": "2",
-        "label": "Home visit from a GP"
-      },
-      {
-        "code": "3",
-        "label": "GP walk-in service/ walk-in centre (no booking)"
-      },
-      {
-        "code": "4",
-        "label": "Routine GP appointment booked in advance (including seeing a nurse)"
-      },
-      {
-        "code": "5",
-        "label": "GP out of hours service via phone number 111 after which I saw GP in person or received a phone/video call back from GP"
-      },
-      {
-        "code": "6",
-        "label": "NHS “GP at Hand” smartphone app or another remote online GP service"
-      },
-      {
-        "code": "7",
-        "label": "Other"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 0"
-  },
-  {
-    "field_name": "short_7",
-    "form_name": "short",
-    "section_header": "What did you seek care for?",
-    "field_type": "checkbox",
-    "field_label": "Mutiple options possible",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "Physical health problem"
-      },
-      {
-        "code": "1",
-        "label": "Mental health problem"
-      },
-      {
-        "code": "2",
-        "label": "Injury or accident"
-      },
-      {
-        "code": "3",
-        "label": "Covid-19"
-      },
-      {
-        "code": "4",
-        "label": "Other"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_8",
-    "form_name": "short",
-    "section_header": "Was it a new or an existing problem?",
-    "field_type": "radio",
-    "field_label": "",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "New acute problem"
-      },
-      {
-        "code": "1",
-        "label": "It was an acute complication or flare up of a chronic/existing problem"
-      },
-      {
-        "code": "2",
-        "label": "It was a planned routine follow up of a chronic/existing problem (follow up appointment)"
-      },
-      {
-        "code": "3",
-        "label": "Other"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_9",
-    "form_name": "short",
-    "section_header": "Did you seek care for this problem outside of the UK?",
-    "field_type": "radio",
-    "field_label": "",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "Yes"
-      },
-      {
-        "code": "1",
-        "label": "No"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_10",
     "form_name": "short",
     "section_header": "Where were you when you received this care?",
     "field_type": "radio",
@@ -1373,7 +1089,287 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_9'] == 0"
+    "evaluated_logic": "responses['short_2'] == 0"
+  },
+  {
+    "field_name": "short_5",
+    "form_name": "short",
+    "section_header": "How was this care planned or arranged?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "I made a phone call or booked online, then I spoke to or saw someone"
+      },
+      {
+        "code": "1",
+        "label": "It was already planned / booked in advance for me (routine appointment)"
+      },
+      {
+        "code": "2",
+        "label": "I just walked in"
+      },
+      {
+        "code": "3",
+        "label": "Directly via emergency ambulance"
+      },
+      {
+        "code": "4",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0 || responses['short_3'] == 1"
+  },
+  {
+    "field_name": "short_6",
+    "form_name": "short",
+    "section_header": "Did you or a relative/friend call the ambulance?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Yes"
+      },
+      {
+        "code": "1",
+        "label": "No"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": " short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_5'] == 3"
+  },
+  {
+    "field_name": "short_7",
+    "form_name": "short",
+    "section_header": "Where/from whom did you get care?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "General Practice (GP) (including home visit)"
+      },
+      {
+        "code": "1",
+        "label": "A&E only"
+      },
+      {
+        "code": "2",
+        "label": "A&E and Inpatient care"
+      },
+      {
+        "code": "3",
+        "label": "Hospital day care or day procedure"
+      },
+      {
+        "code": "4",
+        "label": "Outpatient clinic at hospital (consultation only)"
+      },
+      {
+        "code": "5",
+        "label": "A mental health care professional"
+      },
+      {
+        "code": "6",
+        "label": "Home visit by (district) nurse"
+      },
+      {
+        "code": "7",
+        "label": "Home carers (not nursing)"
+      },
+      {
+        "code": "8",
+        "label": "Pharmacy"
+      },
+      {
+        "code": "9",
+        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
+      },
+      {
+        "code": "10",
+        "label": "Traditional healer"
+      },
+      {
+        "code": "11",
+        "label": "Charity"
+      },
+      {
+        "code": "12",
+        "label": "Other medical care"
+      },
+      {
+        "code": "13",
+        "label": "Other non-medical care"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0 || responses['short_3'] == 1"
+  },
+  {
+    "field_name": "short_8",
+    "form_name": "short",
+    "section_header": "What type of GP service did you use?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Routine GP appointment booked in advance (including seeing a nurse)"
+      },
+      {
+        "code": "1",
+        "label": "GP same day urgent appointment including seeing GP/nurse in person or phone/video call back from GP"
+      },
+      {
+        "code": "2",
+        "label": "Home visit from a GP"
+      },
+      {
+        "code": "3",
+        "label": "GP walk-in service/ walk-in centre (no booking)"
+      },
+      {
+        "code": "4",
+        "label": "GP out of hours service via phone number 111 after which I saw GP in person or received a phone/video call back from GP"
+      },
+      {
+        "code": "5",
+        "label": "NHS “GP at Hand” smartphone app or another remote online GP service"
+      },
+      {
+        "code": "6",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_7'] == 0"
+  },
+  {
+    "field_name": "short_9",
+    "form_name": "short",
+    "section_header": "What did you seek care for?",
+    "field_type": "checkbox",
+    "field_label": "Mutiple options possible",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Physical health problem"
+      },
+      {
+        "code": "1",
+        "label": "Mental health problem"
+      },
+      {
+        "code": "2",
+        "label": "Injury or accident"
+      },
+      {
+        "code": "3",
+        "label": "Covid-19"
+      },
+      {
+        "code": "4",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0"
+  },
+  {
+    "field_name": "short_10",
+    "form_name": "short",
+    "section_header": "Was it a new or an existing problem?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "New acute problem"
+      },
+      {
+        "code": "1",
+        "label": "It was an acute complication or flare up of a chronic/existing problem"
+      },
+      {
+        "code": "2",
+        "label": "It was a planned routine follow up of a chronic/existing problem (follow up appointment)"
+      },
+      {
+        "code": "3",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0"
   },
   {
     "field_name": "short_11",
@@ -1407,7 +1403,7 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
+    "evaluated_logic": "responses['short_2'] == 0 || responses['short_3'] == 1"
   },
   {
     "field_name": "short_12",
@@ -1482,7 +1478,7 @@
       },
       {
         "code": "16",
-        "label": "I didn’t know how to register"
+        "label": "I didn’t know how to register with the NHS"
       },
       {
         "code": "17",
