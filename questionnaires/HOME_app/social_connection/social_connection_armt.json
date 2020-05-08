@@ -37,7 +37,7 @@
     "field_label": "Please choose a number",
     "range": {
       "min": "0",
-      "max": "97",
+      "max": "30",
       "step": "1"
     },
     "field_note": "",
@@ -62,7 +62,7 @@
     "field_label": "Number",
     "range": {
       "min": "0",
-      "max": "97",
+      "max": "30",
       "step": "1"
     },
     "field_note": "",
@@ -87,7 +87,7 @@
     "field_label": "Number",
     "range": {
       "min": "0",
-      "max": "97",
+      "max": "30",
       "step": "1"
     },
     "field_note": "",
@@ -112,7 +112,7 @@
     "field_label": "Number",
     "range": {
       "min": "0",
-      "max": "97",
+      "max": "30",
       "step": "1"
     },
     "field_note": "",
@@ -132,9 +132,9 @@
   {
     "field_name": "social_connection_6",
     "form_name": "social_connection",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -162,7 +162,7 @@
   {
     "field_name": "social_connection_7",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who do things to make me happy",
+    "section_header": "There are people I know amongst my family and friends — who do things to make me happy",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -196,7 +196,7 @@
   {
     "field_name": "social_connection_8",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who make me feel loved",
+    "section_header": "There are people I know amongst my family and friends — who make me feel loved",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -230,7 +230,7 @@
   {
     "field_name": "social_connection_9",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who can be relied on no matter what happens",
+    "section_header": "There are people I know amongst my family and friends — who can be relied on no matter what happens",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -264,7 +264,7 @@
   {
     "field_name": "social_connection_10",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who would see that I am taken care of if I needed to be",
+    "section_header": "There are people I know amongst my family and friends — who would see that I am taken care of if I needed to be",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -298,7 +298,7 @@
   {
     "field_name": "social_connection_11",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who accept me just as I am",
+    "section_header": "There are people I know amongst my family and friends — who accept me just as I am",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -332,7 +332,7 @@
   {
     "field_name": "social_connection_12",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who make me feel an important part of their lives",
+    "section_header": "There are people I know amongst my family and friends — who make me feel an important part of their lives",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -366,7 +366,7 @@
   {
     "field_name": "social_connection_13",
     "form_name": "social_connection",
-    "section_header": "There are people I know amongst my family and friends - who give me support and encouragement",
+    "section_header": "There are people I know amongst my family and friends — who give me support and encouragement",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
