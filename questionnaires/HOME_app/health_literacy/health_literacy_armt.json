@@ -158,7 +158,7 @@
   {
     "field_name": "health_literacy_5",
     "form_name": "health_literacy",
-    "section_header": "How easy/difficult is it for you to understand your doctor´s or pharmacist´s instruction on how to take a prescribed medicine?",
+    "section_header": "How easy/difficult is it for you to understand your doctor´s or pharmacist´s instructions on how to take a prescribed medicine?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -326,7 +326,7 @@
   {
     "field_name": "health_literacy_9",
     "form_name": "health_literacy",
-    "section_header": "How easy/difficult is it for you to find information on how to manage mental health problems such as stress and depression?",
+    "section_header": "How easy/difficult is it for you to find information on how to manage mental health problems (e.g. stress and depression?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -410,7 +410,7 @@
   {
     "field_name": "health_literacy_11",
     "form_name": "health_literacy",
-    "section_header": "How easy/difficult is it for you to understand why you need health screenings (such as breast exam, blood sugar- or blood pressure test)?",
+    "section_header": "How easy/difficult is it for you to understand why you need health screenings (e.g. a breast or bowel exam, a smear test/cervical screening, blood sugar or blood pressure testing)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -536,7 +536,7 @@
   {
     "field_name": "health_literacy_14",
     "form_name": "health_literacy",
-    "section_header": "How easy/difficult is it for you to find out about activities that are good for your mental well-being (e.g. meditation, exercise and walking)?",
+    "section_header": "How easy/difficult is it for you to find out about activities that are good for your mental wellbeing (e.g. meditation, exercise and walking)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
