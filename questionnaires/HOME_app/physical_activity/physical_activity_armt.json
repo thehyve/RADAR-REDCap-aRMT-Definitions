@@ -91,7 +91,7 @@
     "field_label": "Minutes",
     "range": {
       "min": "0",
-      "max": "360",
+      "max": "180",
       "step": "1"
     },
     "field_note": "",
@@ -200,7 +200,7 @@
     "field_label": "Minutes",
     "range": {
       "min": "0",
-      "max": "360",
+      "max": "180",
       "step": "1"
     },
     "field_note": "",
@@ -309,7 +309,7 @@
     "field_label": "Minutes",
     "range": {
       "min": "0",
-      "max": "720",
+      "max": "240",
       "step": "1"
     },
     "field_note": "",
@@ -364,7 +364,7 @@
     "field_label": "Hours",
     "range": {
       "min": "0",
-      "max": "18",
+      "max": "10",
       "step": "1"
     },
     "field_note": "",
@@ -420,19 +420,19 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Sedentary occupation - You spend most of your time sitting (such as in an office)"
+        "label": "Sedentary occupation — you spend most of your time sitting (such as in an office)"
       },
       {
         "code": "1",
-        "label": "Standing occupation - You spend most of your time standing or walking. However, your work does not require intense physical effort (e.g. shop assistant, hairdresser, guard, etc.)"
+        "label": "Standing occupation — you spend most of your time standing or walking. However, your work does not require intense physical effort (e.g. shop assistant, hairdresser, guard, etc.)"
       },
       {
         "code": "2",
-        "label": "Physical work - This involves some physical effort including handling of heavy objects and use of tools (e.g. plumber, cleaner, nurse, sports instructor, electrician, carpenter, etc.)"
+        "label": "Physical work — this involves some physical effort including handling of heavy objects and use of tools (e.g. plumber, cleaner, nurse, sports instructor, electrician, carpenter, etc.)"
       },
       {
         "code": "3",
-        "label": "Heavy manual work - This involves very vigorous physical activity including handling of very heavy objects (e.g. docker, miner, bricklayer, construction worker, etc.)"
+        "label": "Heavy manual work — this involves very vigorous physical activity including handling of very heavy objects (e.g. docker, miner, bricklayer, construction worker, etc.)"
       }
     ],
     "field_note": "",
@@ -482,12 +482,12 @@
   {
     "field_name": "physical_activity_15",
     "form_name": "physical_activity",
-    "section_header": "Walking, including walking to work, shopping and leisure - in summer",
+    "section_header": "Walking, including walking to work, shopping and leisure — in summer",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -507,12 +507,12 @@
   {
     "field_name": "physical_activity_16",
     "form_name": "physical_activity",
-    "section_header": "Walking, including walking to work, shopping and leisure - in winter",
+    "section_header": "Walking, including walking to work, shopping and leisure — in winter",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -532,12 +532,12 @@
   {
     "field_name": "physical_activity_17",
     "form_name": "physical_activity",
-    "section_header": "Cycling, including cycling to work and during leisure time - in summer",
+    "section_header": "Cycling, including cycling to work and during leisure time — in summer",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -557,12 +557,12 @@
   {
     "field_name": "physical_activity_18",
     "form_name": "physical_activity",
-    "section_header": "Cycling, including cycling to work and during leisure time - in winter",
+    "section_header": "Cycling, including cycling to work and during leisure time — in winter",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -582,12 +582,12 @@
   {
     "field_name": "physical_activity_19",
     "form_name": "physical_activity",
-    "section_header": "Gardening - in summer",
+    "section_header": "Gardening — in summer",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -607,12 +607,12 @@
   {
     "field_name": "physical_activity_20",
     "form_name": "physical_activity",
-    "section_header": "Gardening - in winter",
+    "section_header": "Gardening — in winter",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -637,7 +637,7 @@
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -657,12 +657,12 @@
   {
     "field_name": "physical_activity_22",
     "form_name": "physical_activity",
-    "section_header": "Other physical exercise such as keep fit, aerobics, swimming, jogging - in summer",
+    "section_header": "Other physical exercise such as keep fit, aerobics, swimming, jogging — in summer",
     "field_type": "slider",
     "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -682,12 +682,12 @@
   {
     "field_name": "physical_activity_23",
     "form_name": "physical_activity",
-    "section_header": "Other physical exercise such as keep fit, aerobics, swimming, jogging - in winter",
+    "section_header": "Other physical exercise such as keep fit, aerobics, swimming, jogging — in winter",
     "field_type": "slider",
-    "field_label": "Minutes",
+    "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -707,7 +707,7 @@
   {
     "field_name": "physical_activity_24",
     "form_name": "physical_activity",
-    "section_header": "In a typical week during the past year did you practise any of these activities vigorously enough to cause sweating or a faster heartbeat?",
+    "section_header": "In a typical week during the past year, did you practise any of these activities vigorously enough to cause sweating or a faster heartbeat?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -743,10 +743,10 @@
     "form_name": "physical_activity",
     "section_header": "For how many hours per week in total did you practise such vigorous physical activity?",
     "field_type": "slider",
-    "field_label": "Minutes",
+    "field_label": "Hours per week",
     "range": {
       "min": "0",
-      "max": "84",
+      "max": "42",
       "step": "1"
     },
     "field_note": "",
@@ -771,7 +771,7 @@
     "field_label": "Number",
     "range": {
       "min": "0",
-      "max": "50",
+      "max": "10",
       "step": "1"
     },
     "field_note": "",
