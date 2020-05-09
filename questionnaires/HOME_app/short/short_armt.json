@@ -1131,7 +1131,7 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0 || responses['short_3'] == 1"
+    "evaluated_logic": "responses['short_3'] == 1"
   },
   {
     "field_name": "short_6",
@@ -1483,7 +1483,7 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0 || responses['short_3'] == 1"
+    "evaluated_logic": "responses['short_3'] == 1"
   },
   {
     "field_name": "short_14",
