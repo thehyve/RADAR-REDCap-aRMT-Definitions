@@ -2,7 +2,7 @@
   {
     "field_name": "demographics_part_1_1",
     "form_name": "demographics_part_1",
-    "section_header": "What is you ethnicity?",
+    "section_header": "What is your ethnicity?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
