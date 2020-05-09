@@ -92,7 +92,7 @@
     "range": {
       "min": "0",
       "max": "180",
-      "step": "1"
+      "step": "10"
     },
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -201,7 +201,7 @@
     "range": {
       "min": "0",
       "max": "180",
-      "step": "1"
+      "step": "10"
     },
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -310,7 +310,7 @@
     "range": {
       "min": "0",
       "max": "240",
-      "step": "1"
+      "step": "10"
     },
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
