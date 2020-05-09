@@ -2,9 +2,9 @@
   {
     "field_name": "depression_1",
     "form_name": "depression",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",

@@ -2,9 +2,9 @@
   {
     "field_name": "food_security_1",
     "form_name": "food_security",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
