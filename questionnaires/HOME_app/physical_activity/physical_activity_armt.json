@@ -38,7 +38,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "0"
+        "label": "None"
       },
       {
         "code": "1",
@@ -66,7 +66,7 @@
       },
       {
         "code": "7",
-        "label": "7"
+        "label": ""
       }
     ],
     "field_note": "",
@@ -147,7 +147,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "0"
+        "label": "None"
       },
       {
         "code": "1",
@@ -175,7 +175,7 @@
       },
       {
         "code": "7",
-        "label": "7"
+        "label": ""
       }
     ],
     "field_note": "",
@@ -256,7 +256,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "0"
+        "label": "None"
       },
       {
         "code": "1",
@@ -284,7 +284,7 @@
       },
       {
         "code": "7",
-        "label": "7"
+        "label": ""
       }
     ],
     "field_note": "",
