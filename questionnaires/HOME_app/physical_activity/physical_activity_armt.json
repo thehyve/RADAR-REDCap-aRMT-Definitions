@@ -2,9 +2,9 @@
   {
     "field_name": "physical_activity_1",
     "form_name": "physical_activity",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -111,9 +111,9 @@
   {
     "field_name": "physical_activity_4",
     "form_name": "physical_activity",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -220,9 +220,9 @@
   {
     "field_name": "physical_activity_7",
     "form_name": "physical_activity",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -329,9 +329,9 @@
   {
     "field_name": "physical_activity_10",
     "form_name": "physical_activity",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -384,9 +384,9 @@
   {
     "field_name": "physical_activity_12",
     "form_name": "physical_activity",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -452,9 +452,9 @@
   {
     "field_name": "physical_activity_14",
     "form_name": "physical_activity",
-    "section_header": "",
+    "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "Read this carefully",
+    "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "",
