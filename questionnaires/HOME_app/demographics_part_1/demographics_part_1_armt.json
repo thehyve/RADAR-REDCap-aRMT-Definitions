@@ -1886,23 +1886,23 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Married or in a civil partnership"
+        "label": "Living in a couple/cohabiting: married or in a civil partnership"
       },
       {
         "code": "1",
-        "label": "Cohabiting but never married or civil partnered"
+        "label": "Living in a couple/cohabiting, but never married or civil partnered"
       },
       {
         "code": "2",
-        "label": "Cohabiting but previously married or civil partnered"
+        "label": "Living in a couple/cohabiting, but previously married or civil partnered"
       },
       {
         "code": "3",
-        "label": "Never married or civil partnered"
+        "label": "Not living in a couple/cohabiting, never married or civil partnered"
       },
       {
         "code": "4",
-        "label": "Previously married or civil partnered"
+        "label": "Not living in a couple/cohabiting, but previously married or civil partnered"
       }
     ],
     "field_note": "",
@@ -1917,10 +1917,40 @@
     "matrix_group_name": "demographics_part_1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['demographics_part_1_11'] == 0 || responses['demographics_part_1_11'] == 1 || responses['demographics_part_1_11'] == 2 || responses['demographics_part_1_11'] == 3"
+    "evaluated_logic": "responses['demographics_part_1_11'] == 0 || responses['demographics_part_1_11'] == 1 || responses['demographics_part_1_11'] == 2"
   },
   {
     "field_name": "demographics_part_1_13",
+    "form_name": "demographics_part_1",
+    "section_header": "Living arrangements",
+    "field_type": "radio",
+    "field_label": "Are you:",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Living in a couple/cohabiting, but previously married or civil partnered"
+      },
+      {
+        "code": "1",
+        "label": "Not living in a couple/cohabiting, but previously married or civil partnered"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_1_11'] == 3 || responses['demographics_part_1_11'] == 4"
+  },
+  {
+    "field_name": "demographics_part_1_14",
     "form_name": "demographics_part_1",
     "section_header": "How would you describe your accommodation?",
     "field_type": "radio",
@@ -1966,7 +1996,7 @@
     "evaluated_logic": ""
   },
   {
-    "field_name": "demographics_part_1_14",
+    "field_name": "demographics_part_1_15",
     "form_name": "demographics_part_1",
     "section_header": "What were you doing last week?",
     "field_type": "checkbox",
