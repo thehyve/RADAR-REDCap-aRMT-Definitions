@@ -175,7 +175,7 @@
     "matrix_group_name": "food_security",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "esponses['food_security_4'] == 0"
+    "evaluated_logic": "responses['food_security_4'] == 0"
   },
   {
     "field_name": "food_security_6",
