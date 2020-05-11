@@ -1176,54 +1176,46 @@
       },
       {
         "code": "1",
-        "label": "A&E only"
-      },
-      {
-        "code": "2",
-        "label": "A&E and Inpatient care"
-      },
-      {
-        "code": "3",
         "label": "Hospital day care or day procedure"
       },
       {
-        "code": "4",
+        "code": "2",
         "label": "Outpatient clinic at hospital (consultation only)"
       },
       {
-        "code": "5",
+        "code": "3",
         "label": "A mental health care professional"
       },
       {
-        "code": "6",
+        "code": "4",
         "label": "Home visit by (district) nurse"
       },
       {
-        "code": "7",
+        "code": "5",
         "label": "Home carers (not nursing)"
       },
       {
-        "code": "8",
+        "code": "6",
         "label": "Pharmacy"
       },
       {
-        "code": "9",
+        "code": "7",
         "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
       },
       {
-        "code": "10",
+        "code": "8",
         "label": "Traditional healer"
       },
       {
-        "code": "11",
+        "code": "9",
         "label": "Charity"
       },
       {
-        "code": "12",
+        "code": "10",
         "label": "Other medical care"
       },
       {
-        "code": "13",
+        "code": "11",
         "label": "Other non-medical care"
       }
     ],
