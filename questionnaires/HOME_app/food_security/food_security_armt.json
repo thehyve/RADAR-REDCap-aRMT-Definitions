@@ -8,7 +8,7 @@
     "select_choices_or_calculations": [
       {
         "code": "",
-        "label": "For the following two statements, please tell us whether the statement was often true, sometimes true, or never true for (you/your household) in the last 12 months"
+        "label": "For the following two statements, please tell us whether the statement was often true, sometimes true, or never true for you/your household in the last 12 months"
       },
       {
         "code": "",
@@ -70,7 +70,7 @@
   {
     "field_name": "food_security_3",
     "form_name": "food_security",
-    "section_header": "'(I/we) couldn’t afford to eat balanced meals'",
+    "section_header": "'I/we couldn’t afford to eat balanced meals'",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -108,7 +108,7 @@
   {
     "field_name": "food_security_4",
     "form_name": "food_security",
-    "section_header": "In the last 12 months, did (you/you or other adults in your household) ever cut the size of your meals or skip meals because there wasn't enough money for food?",
+    "section_header": "In the last 12 months, did you or other adults in your household ever cut the size of your meals, or skip meals, because there wasn't enough money for food?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
