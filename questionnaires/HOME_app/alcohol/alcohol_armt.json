@@ -146,6 +146,10 @@
       },
       {
         "code": "4",
+        "label": "Not drunk alcohol before moving to the UK"
+      },
+      {
+        "code": "5",
         "label": "Never drunk alcohol"
       }
     ],
@@ -166,7 +170,7 @@
   {
     "field_name": "alcohol_5",
     "form_name": "alcohol",
-    "section_header": "Do you currently smoke tobacco?",
+    "section_header": "Do you currently smoke tobacco/vape?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -204,7 +208,7 @@
   {
     "field_name": "alcohol_6",
     "form_name": "alcohol",
-    "section_header": "Have you smoked tobacco daily in the past?",
+    "section_header": "Have you smoked tobacco/vaped daily in the past?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -238,7 +242,7 @@
   {
     "field_name": "alcohol_7",
     "form_name": "alcohol",
-    "section_header": "In the past, have you smoked tobacco?",
+    "section_header": "In the past, have you smoked tobacco/vaped?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -426,9 +430,9 @@
   {
     "field_name": "alcohol_14",
     "form_name": "alcohol",
-    "section_header": "On average, how many of the following products do you currently smoke each week?",
+    "section_header": "On average, how many of the following do you currently use each day in your E-cigarette/Vaping kit if any?",
     "field_type": "slider",
-    "field_label": "Other products",
+    "field_label": "Milligram of nicotine PER DAY",
     "range": {
       "min": "0",
       "max": "100",
@@ -451,7 +455,7 @@
   {
     "field_name": "alcohol_15",
     "form_name": "alcohol",
-    "section_header": "Do you currently use smokeless tobacco (such as e-cigarettes)?",
+    "section_header": "Do you currently use smokeless tobacco (such as chewing tobacco and snuff)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -561,7 +565,7 @@
   {
     "field_name": "alcohol_18",
     "form_name": "alcohol",
-    "section_header": "Before you moved to the UK, did you smoke",
+    "section_header": "Before you moved to the UK, did you smoke, vape or use smokeless tobacco",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -583,7 +587,12 @@
       },
       {
         "code": "4",
-        "label": "Never smoked"
+        "label": "",
+        "label": "Not smoked, vaped or used smokeless tobacco before moving to the UK"
+      },
+      {
+        "code": "4",
+        "label": "Never smoked, vaped or used smokeless tobacco"
       }
     ],
     "field_note": "",
@@ -598,8 +607,7 @@
     "matrix_group_name": "alcohol",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['alcohol_1'] == 1 || responses['alcohol_1'] == 2 || responses['alcohol_1'] == 3 || responses['alcohol_1'] == 4"
-  },
+    "evaluated_logic": "",
   {
     "field_name": "alcohol_19",
     "form_name": "alcohol",
