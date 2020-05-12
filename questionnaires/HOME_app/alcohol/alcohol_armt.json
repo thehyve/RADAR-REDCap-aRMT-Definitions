@@ -817,6 +817,10 @@
       {
         "code": "3",
         "label": "Don't know"
+      },
+      {
+        "code": "4",
+        "label": "Not used any drugs before moving to the UK"
       }
     ],
     "field_note": "",
