@@ -1112,7 +1112,7 @@
       },
       {
         "code": "3",
-        "label": "Via a 999 call, either by you or someone else, after which an emergency ambulance service was arranged"
+        "label": "Via a 999 call after which an ambulance service was arranged"
       },
       {
         "code": "4",
@@ -1176,46 +1176,54 @@
       },
       {
         "code": "1",
-        "label": "Hospital day care or day procedure"
+        "label": "A&E only (including urgent care center)"
       },
       {
         "code": "2",
-        "label": "Outpatient clinic at hospital (consultation only)"
+        "label": "A&E and Inpatient care"
       },
-      {
+      {&E only
         "code": "3",
-        "label": "A mental health care professional"
+        "label": "Hospital day care or day procedure"
       },
       {
         "code": "4",
-        "label": "Home visit by (district) nurse"
+        "label": "Outpatient clinic at hospital (consultation only)"
       },
       {
         "code": "5",
-        "label": "Home carers (not nursing)"
+        "label": "A mental health care professional"
       },
       {
         "code": "6",
-        "label": "Pharmacy"
+        "label": "Home visit by (district) nurse"
       },
       {
         "code": "7",
-        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
+        "label": "Home carers (not nursing)"
       },
       {
         "code": "8",
-        "label": "Traditional healer"
+        "label": "Pharmacy"
       },
       {
         "code": "9",
-        "label": "Charity"
+        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
       },
       {
         "code": "10",
-        "label": "Other medical care"
+        "label": "Traditional healer"
       },
       {
         "code": "11",
+        "label": "Charity"
+      },
+      {
+        "code": "12",
+        "label": "Other medical care"
+      },
+      {
+        "code": "13",
         "label": "Other non-medical care"
       }
     ],
@@ -1246,7 +1254,7 @@
       },
       {
         "code": "1",
-        "label": "A&E only"
+        "label": "A&E only (including urgent care center)"
       },
       {
         "code": "2",
@@ -1292,7 +1300,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "A&E only"
+        "label": "A&E only (including urgent care center)"
       },
       {
         "code": "1",
@@ -1334,7 +1342,7 @@
       },
       {
         "code": "3",
-        "label": "GP walk-in service/ walk-in centre (no booking)"
+        "label": "GP walk-in service/ NHS walk-in centre (no booking)"
       },
       {
         "code": "4",
@@ -1361,10 +1369,44 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_7'] == 0 || responses['short_8'] == 0"
+    "evaluated_logic": "responses['short_7'] == 0"
   },
   {
     "field_name": "short_11",
+    "form_name": "short",
+    "section_header": "What type of GP service did you walk in?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Own GP"
+      },
+      {
+        "code": "1",
+        "label": "Other GP surgery (within working hours)"
+      },
+      {
+        "code": "2",
+        "label": "GP walk-in service/ NHS walk-in centre"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_8'] == 0"
+  },
+  {
+    "field_name": "short_12",
     "form_name": "short",
     "section_header": "What did you seek care for?",
     "field_type": "checkbox",
@@ -1406,7 +1448,7 @@
     "evaluated_logic": "responses['short_2'] == 0"
   },
   {
-    "field_name": "short_12",
+    "field_name": "short_13",
     "form_name": "short",
     "section_header": "Was it a new or an existing problem?",
     "field_type": "radio",
@@ -1444,7 +1486,7 @@
     "evaluated_logic": "responses['short_2'] == 0"
   },
   {
-    "field_name": "short_13",
+    "field_name": "short_14",
     "form_name": "short",
     "section_header": "We would like to know how easy it has been for you to access this care.",
     "field_type": "radio",
@@ -1478,7 +1520,7 @@
     "evaluated_logic": "responses['short_3'] == 1"
   },
   {
-    "field_name": "short_14",
+    "field_name": "short_15",
     "form_name": "short",
     "section_header": "Why was it not easy?",
     "field_type": "checkbox",
@@ -1590,7 +1632,7 @@
       },
       {
         "code": "26",
-        "label": "Getting care is difficult for me as I am a part-time or full time carer for children/relative"
+        "label": "Getting care is difficult for me as I am a part- or full-time carer for children/relative(s)"
       },
       {
         "code": "27",
@@ -1609,6 +1651,6 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_13'] == 0"
+    "evaluated_logic": "responses['short_14'] == 0"
   }
 ]
