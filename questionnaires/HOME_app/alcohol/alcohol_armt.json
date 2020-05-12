@@ -587,7 +587,6 @@
       },
       {
         "code": "4",
-        "label": "",
         "label": "Not smoked, vaped or used smokeless tobacco before moving to the UK"
       },
       {
@@ -607,7 +606,8 @@
     "matrix_group_name": "alcohol",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "",
+    "evaluated_logic": ""
+  },
   {
     "field_name": "alcohol_19",
     "form_name": "alcohol",
