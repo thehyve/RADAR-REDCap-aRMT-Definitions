@@ -1184,46 +1184,54 @@
       },
       {
         "code": "3",
-        "label": "Hospital day care or day procedure"
+        "label": "A&E and Ambulatory care (outpatient A&E follow up)"
       },
       {
         "code": "4",
-        "label": "Outpatient clinic at hospital (consultation only)"
+        "label": "Ambulatory care only"
       },
       {
         "code": "5",
-        "label": "A mental health care professional"
+        "label": "Hospital day care or day procedure/surgery"
       },
       {
         "code": "6",
-        "label": "Home visit by (district) nurse"
+        "label": "Outpatient clinic at hospital (consultation only)"
       },
       {
         "code": "7",
-        "label": "Home carers (not nursing)"
+        "label": "A mental health care professional"
       },
       {
         "code": "8",
-        "label": "Pharmacy"
+        "label": "Home visit by (district) nurse"
       },
       {
         "code": "9",
-        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
+        "label": "Home carers (not nursing)"
       },
       {
         "code": "10",
-        "label": "Traditional healer"
+        "label": "Pharmacy"
       },
       {
         "code": "11",
-        "label": "Charity"
+        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
       },
       {
         "code": "12",
-        "label": "Other medical care"
+        "label": "Traditional healer"
       },
       {
         "code": "13",
+        "label": "Charity"
+      },
+      {
+        "code": "14",
+        "label": "Other medical care"
+      },
+      {
+        "code": "15",
         "label": "Other non-medical care"
       }
     ],
@@ -1239,10 +1247,80 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 0 || responses['short_5'] == 1 || responses['short_5'] == 4"
+    "evaluated_logic": "responses['short_5'] == 0 || responses['short_5'] == 4"
   },
   {
     "field_name": "short_8",
+    "form_name": "short",
+    "section_header": "Where/from whom did you get care?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "General Practice (GP) (including home visit)"
+      },
+      {
+        "code": "1",
+        "label": "Ambulatory care (outpatient A&E follow up)"
+      },
+      {
+        "code": "2",
+        "label": "Hospital day care or day procedure"
+      },
+      {
+        "code": "3",
+        "label": "Outpatient clinic at hospital (consultation only)"
+      },
+      {
+        "code": "4",
+        "label": "A mental health care professional"
+      },
+      {
+        "code": "5",
+        "label": "Home visit by (district) nurse"
+      },
+      {
+        "code": "6",
+        "label": "Home carers (not nursing)"
+      },
+      {
+        "code": "7",
+        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
+      },
+      {
+        "code": "8",
+        "label": "Traditional healer"
+      },
+      {
+        "code": "9",
+        "label": "Charity"
+      },
+      {
+        "code": "10",
+        "label": "Other medical care"
+      },
+      {
+        "code": "11",
+        "label": "Other non-medical care"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_5'] == 1"
+  },
+  {
+    "field_name": "short_9",
     "form_name": "short",
     "section_header": "Where/from whom did you get care?",
     "field_type": "radio",
@@ -1261,19 +1339,23 @@
         "label": "A&E and Inpatient care"
       },
       {
-        "code": "10",
+        "code": "3",
+        "label": "A&E and Ambulatory care"
+      },
+      {
+        "code": "4",
         "label": "Traditional healer"
       },
       {
-        "code": "11",
+        "code": "5",
         "label": "Charity"
       },
       {
-        "code": "12",
+        "code": "6",
         "label": "Other medical care"
       },
       {
-        "code": "13",
+        "code": "7",
         "label": "Other non-medical care"
       }
     ],
@@ -1292,7 +1374,7 @@
     "evaluated_logic": "responses['short_5'] == 2"
   },
   {
-    "field_name": "short_9",
+    "field_name": "short_10",
     "form_name": "short",
     "section_header": "Where/from whom did you get care?",
     "field_type": "radio",
@@ -1305,6 +1387,10 @@
       {
         "code": "1",
         "label": "A&E and Inpatient care"
+      },
+      {
+        "code": "2",
+        "label": "A&E and Ambulatory care"
       }
     ],
     "field_note": "",
@@ -1322,7 +1408,7 @@
     "evaluated_logic": "responses['short_5'] == 3"
   },
   {
-    "field_name": "short_10",
+    "field_name": "short_11",
     "form_name": "short",
     "section_header": "What type of GP service did you use?",
     "field_type": "radio",
@@ -1369,12 +1455,12 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_7'] == 0"
+    "evaluated_logic": "responses['short_7'] == 0 || responses['short_8'] == 0"
   },
   {
-    "field_name": "short_11",
+    "field_name": "short_12",
     "form_name": "short",
-    "section_header": "What type of GP service did you walk in?",
+    "section_header": "What type of GP service did you walk into?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -1384,11 +1470,15 @@
       },
       {
         "code": "1",
-        "label": "Other GP surgery (within working hours)"
+        "label": "Other GP surgery"
       },
       {
         "code": "2",
         "label": "GP walk-in service/ NHS walk-in centre"
+      },
+      {
+        "code": "3",
+        "label": "Other"
       }
     ],
     "field_note": "",
@@ -1403,14 +1493,14 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_8'] == 0"
+    "evaluated_logic": "responses['short_9'] == 0"
   },
   {
-    "field_name": "short_12",
+    "field_name": "short_13",
     "form_name": "short",
     "section_header": "What did you seek care for?",
-    "field_type": "checkbox",
-    "field_label": "Mutiple options possible",
+    "field_type": "radio",
+    "field_label": "If more than one problem — choose the most important",
     "select_choices_or_calculations": [
       {
         "code": "0",
@@ -1448,7 +1538,7 @@
     "evaluated_logic": "responses['short_2'] == 0"
   },
   {
-    "field_name": "short_13",
+    "field_name": "short_14",
     "form_name": "short",
     "section_header": "Was it a new or an existing problem?",
     "field_type": "radio",
@@ -1486,7 +1576,7 @@
     "evaluated_logic": "responses['short_2'] == 0"
   },
   {
-    "field_name": "short_14",
+    "field_name": "short_15",
     "form_name": "short",
     "section_header": "We would like to know how easy it has been for you to access this care.",
     "field_type": "radio",
@@ -1520,7 +1610,7 @@
     "evaluated_logic": "responses['short_3'] == 1"
   },
   {
-    "field_name": "short_15",
+    "field_name": "short_16",
     "form_name": "short",
     "section_header": "Why was it not easy?",
     "field_type": "checkbox",
@@ -1651,6 +1741,6 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_14'] == 0"
+    "evaluated_logic": "responses['short_15'] == 0"
   }
 ]

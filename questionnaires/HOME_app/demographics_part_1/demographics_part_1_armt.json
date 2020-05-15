@@ -1991,6 +1991,18 @@
       {
         "code": "5",
         "label": "Squatting"
+      },
+      {
+        "code": "6",
+        "label": "Homeless"
+      },
+      {
+        "code": "7",
+        "label": "Living in a hotel/hostel/B&B/bedsit"
+      },
+      {
+        "code": "8",
+        "label": "Other"
       }
     ],
     "field_note": "",
@@ -2044,26 +2056,34 @@
       },
       {
         "code": "7",
-        "label": "Intending to look for work but prevented by temporary sickness or injury"
+        "label": "Not intending to look for work (choose not to work)"
       },
       {
         "code": "8",
-        "label": "Permanently unable to work because of long-term sickness or disability"
+        "label": "Intending to look for work, but unable to find suitable work"
       },
       {
         "code": "9",
-        "label": "Retired from paid work"
+        "label": "Intending to look for work, but prevented by temporary sickness or injury"
       },
       {
         "code": "10",
-        "label": "No legal right to work in the UK"
+        "label": "Permanently unable to work because of long-term sickness or disability"
       },
       {
         "code": "11",
-        "label": "Looking after home or family"
+        "label": "Retired from paid work"
       },
       {
         "code": "12",
+        "label": "Looking after home or family"
+      },
+      {
+        "code": "13",
+        "label": "No legal right to work in the UK"
+      },
+      {
+        "code": "14",
         "label": "Doing something else"
       }
     ],
