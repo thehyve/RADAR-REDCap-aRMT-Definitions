@@ -1614,7 +1614,7 @@
     "form_name": "short",
     "section_header": "Why was it not easy?",
     "field_type": "checkbox",
-    "field_label": "Mutiple options possible",
+    "field_label": "Multiple options possible",
     "select_choices_or_calculations": [
       {
         "code": "0",
