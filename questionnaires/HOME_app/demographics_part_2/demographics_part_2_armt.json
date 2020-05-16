@@ -256,7 +256,7 @@
     "form_name": "demographics_part_2",
     "section_header": "In the last 12 months have you had enough support from local services or organisations to help you manage your condition(s)?",
     "field_type": "radio",
-    "field_label": "Please think about all services and organisations, not just health services",
+    "field_label": "Please think about all services and organisations, not just health services (e.g. financial/housing)",
     "select_choices_or_calculations": [
       {
         "code": "0",

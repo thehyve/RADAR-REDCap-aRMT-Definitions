@@ -1176,7 +1176,7 @@
       },
       {
         "code": "1",
-        "label": "A&E only (including urgent care center)"
+        "label": "A&E only (including urgent care centre)"
       },
       {
         "code": "2",
@@ -1332,7 +1332,7 @@
       },
       {
         "code": "1",
-        "label": "A&E only (including urgent care center)"
+        "label": "A&E only (including urgent care centre)"
       },
       {
         "code": "2",
@@ -1382,7 +1382,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "A&E only (including urgent care center)"
+        "label": "A&E only (including urgent care centre)"
       },
       {
         "code": "1",
@@ -1390,7 +1390,7 @@
       },
       {
         "code": "2",
-        "label": "A&E and Ambulatory care"
+        "label": "A&E and Ambulatory care (outpatient A&E follow up)"
       }
     ],
     "field_note": "",
