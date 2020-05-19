@@ -144,7 +144,7 @@
     "select_choices_or_calculations": [
       {
         "code": "",
-        "label": "During the PAST 4 WEEKS have you had any of the following problems with your work or other regular activities AS A RESULT OF YOUR PHYSICAL HEALTH?"
+        "label": "During the past 4 weeks, have you had any of the following problems with your work or other regular activities AS A RESULT OF YOUR PHYSICAL HEALTH?"
       },
       {
         "code": "",
@@ -234,7 +234,7 @@
     "select_choices_or_calculations": [
       {
         "code": "",
-        "label": "During the PAST 4 WEEKS, were you limited in the kind of work you do or other regular activities AS A RESULT OF ANY EMOTIONAL PROBLEMS (such as feeling depressed or anxious)?"
+        "label": "During the past 4 weeks, were you limited in the kind of work you do or other regular activities AS A RESULT OF ANY EMOTIONAL PROBLEMS (such as feeling depressed or anxious)?"
       },
       {
         "code": "",
@@ -318,7 +318,7 @@
   {
     "field_name": "wellbeing_11",
     "form_name": "wellbeing",
-    "section_header": "During the PAST 4 WEEKS, how much did PAIN interfere with your normal work (including both work outside the home and housework)?",
+    "section_header": "During the past for 4 weeks, how much did PAIN interfere with your normal work (including both work outside the home and housework)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -366,7 +366,7 @@
     "select_choices_or_calculations": [
       {
         "code": "",
-        "label": "The next three questions are about how you feel and how things have been DURING THE PAST 4 WEEKS. For each question, please give the one answer that comes closest to the way you have been feeling. How much of the time during the PAST 4 WEEKS:"
+        "label": "The next three questions are about how you feel and how things have been during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling."
       },
       {
         "code": "",
@@ -390,7 +390,7 @@
   {
     "field_name": "wellbeing_13",
     "form_name": "wellbeing",
-    "section_header": "Have you felt calm and peaceful?",
+    "section_header": "During the past 4 weeks, how often have you felt calm and peaceful?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -436,7 +436,7 @@
   {
     "field_name": "wellbeing_14",
     "form_name": "wellbeing",
-    "section_header": "Did you have a lot of energy?",
+    "section_header": "During the past 4 weeks, how often did you have a lot of energy?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -482,7 +482,7 @@
   {
     "field_name": "wellbeing_15",
     "form_name": "wellbeing",
-    "section_header": "Have you felt downhearted and blue?",
+    "section_header": "During the past 4 weeks, how often have you felt downhearted and blue?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -528,7 +528,7 @@
   {
     "field_name": "wellbeing_16",
     "form_name": "wellbeing",
-    "section_header": "During the PAST 4 WEEKS, how much of the time has your PHYSICAL HEALTH OR EMOTIONAL PROBLEMS interfered with your social activities (like visiting with friends, relatives, etc.)?",
+    "section_header": "During the past 4 weeks, how much of the time has your PHYSICAL HEALTH OR EMOTIONAL PROBLEMS interfered with your social activities (like visiting with friends, relatives, etc.)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
