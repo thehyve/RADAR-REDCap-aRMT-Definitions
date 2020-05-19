@@ -8,7 +8,7 @@
     "select_choices_or_calculations": [
       {
         "code": "",
-        "label": "The following questions are about how it is for you to find, understand and use information related to health, illness and medical care in the UK."
+        "label": "The following questions are about how easy/difficult it is for you to find, understand and use information related to health, illness and medical care in the UK."
       },
       {
         "code": "",
@@ -494,7 +494,7 @@
   {
     "field_name": "health_literacy_13",
     "form_name": "health_literacy",
-    "section_header": "How easy/difficult is it for you to decide how you can protect yourself from illness based on information in media (e.g. newspapers, leaflets and internet)?",
+    "section_header": "How easy/difficult is it for you to decide how you can protect yourself from illness based on information in the media (e.g. newspapers, leaflets and internet)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
