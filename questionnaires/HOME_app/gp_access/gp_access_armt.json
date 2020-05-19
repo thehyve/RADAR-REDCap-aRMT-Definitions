@@ -67,11 +67,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Boyfriend/girlfriend/Spouse"
+        "label": "Boyfriend/ girlfriend/ Spouse"
       },
       {
         "code": "1",
-        "label": "Parents/siblings/children"
+        "label": "Parents/ siblings/ children"
       },
       {
         "code": "2",
