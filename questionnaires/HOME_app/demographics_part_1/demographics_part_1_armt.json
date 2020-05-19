@@ -2056,11 +2056,11 @@
       },
       {
         "code": "7",
-        "label": "Not intending to look for work (choose not to work)"
+        "label": "Not looking for work (choose not to work)"
       },
       {
         "code": "8",
-        "label": "Intending to look for work, but unable to find suitable work"
+        "label": "Looking for work, but unable to find suitable work"
       },
       {
         "code": "9",
