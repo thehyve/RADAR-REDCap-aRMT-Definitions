@@ -2,7 +2,7 @@
   {
     "field_name": "sexual_health_1",
     "form_name": "sexual_health",
-    "section_header": "Which of these have you used to prevent pregnancy, Sexually Transmitted Infections, or for any other reason (e.g. pill use to help with acne, pill for stopping menstruation)?",
+    "section_header": "Which of these have you used to prevent pregnancy, sexually transmitted infections, or for any other reason (e.g. pill to help with acne, pill for stopping menstruation)?",
     "field_type": "checkbox",
     "field_label": "Multiple options possible",
     "select_choices_or_calculations": [
@@ -16,59 +16,59 @@
       },
       {
         "code": "2",
-        "label": "Male condom"
+        "label": "Avoiding penetrative sex"
       },
       {
         "code": "3",
-        "label": "Female condom"
+        "label": "Withdrawal (not ejaculating in a partner’s mouth, vagina, or anus)"
       },
       {
         "code": "4",
-        "label": "Cap/diaphragm"
-      },
-      {
-        "code": "5",
-        "label": "Dental dams"
-      },
-      {
-        "code": "6",
         "label": "Partner has been /I have been sterilized or had a vasectomy"
       },
       {
+        "code": "5",
+        "label": "Male condom"
+      },
+      {
+        "code": "6",
+        "label": "Spermicides (foams/gels/sprays/pessaries)"
+      },
+      {
         "code": "7",
-        "label": "Combined oral contraceptive pill"
+        "label": "Female condom"
       },
       {
         "code": "8",
-        "label": "Progesterone only contraceptive pill"
+        "label": "Cap/diaphragm"
       },
       {
         "code": "9",
-        "label": "Contraceptive pill – don't know which type"
+        "label": "Dental dams"
       },
       {
         "code": "10",
-        "label": "Hormonal IUS (e.g. Mirena, Jaydress, Kyleena, Levosert)"
+        "label": "Combined oral contraceptive pill"
       },
       {
         "code": "11",
-        "label": "Vaginal ring (e.g. NuvaRing)"
+        "label": "Progesterone only contraceptive pill"
       },
       {
         "code": "12",
-        "label": "Contraceptive patch (e.g. EVRA)"
+        "label": "Contraceptive pill – don't know which type"
       },
       {
         "code": "13",
-        "label": "Injections"
+        "label": "Emergency contraceptive pill/morning after pill"
       },
       {
         "code": "14",
-        "label": "Implants"
+        "label": "Hormonal IUS (e.g. Mirena, Jaydress, Kyleena, Levosert)"
       },
       {
         "code": "15",
-        "label": "Emergency contraceptive pill/morning after pill"
+        "label": "Copper coil/intra-uterine device (IUD)"
       },
       {
         "code": "16",
@@ -76,35 +76,35 @@
       },
       {
         "code": "17",
-        "label": "Post-exposure prophylaxis (PEP) to prevent HIV"
+        "label": "Vaginal ring (e.g. NuvaRing)"
       },
       {
         "code": "18",
-        "label": "Safe period/calendar method/rhythm method"
+        "label": "Contraceptive patch (e.g. EVRA)"
       },
       {
         "code": "19",
-        "label": "Withdrawal (not ejaculating in a partner’s mouth, vagina, or anus)"
+        "label": "Injections"
       },
       {
         "code": "20",
-        "label": "Fertility awareness apps or devices"
+        "label": "Implants"
       },
       {
         "code": "21",
-        "label": "Avoiding penetrative sex"
+        "label": "Safe period/calendar method/rhythm method"
       },
       {
         "code": "22",
-        "label": "Copper coil/intra-uterine device (IUD)"
+        "label": "Fertility awareness apps or devices"
       },
       {
         "code": "23",
-        "label": "Spermicides (foams/gels/sprays/pessaries)"
+        "label": "Pre-Exposure Prophylaxis (PrEP) drug"
       },
       {
         "code": "24",
-        "label": "Pre-Exposure Prophylaxis (PrEP) drug"
+        "label": "Post-exposure prophylaxis (PEP) to prevent HIV"
       },
       {
         "code": "25",
@@ -138,59 +138,59 @@
       },
       {
         "code": "1",
-        "label": "Male condom"
+        "label": "Avoiding penetrative sex"
       },
       {
         "code": "2",
-        "label": "Female condom"
+        "label": "Withdrawal (not ejaculating in a partner’s mouth, vagina, or anus)"
       },
       {
         "code": "3",
-        "label": "Cap/diaphragm"
-      },
-      {
-        "code": "4",
-        "label": "Dental dams"
-      },
-      {
-        "code": "5",
         "label": "Partner has been /I have been sterilized or had a vasectomy"
       },
       {
+        "code": "4",
+        "label": "Male condom"
+      },
+      {
+        "code": "5",
+        "label": "Spermicides (foams/gels/sprays/pessaries)"
+      },
+      {
         "code": "6",
-        "label": "Combined oral contraceptive pill"
+        "label": "Female condom"
       },
       {
         "code": "7",
-        "label": "Progesterone only contraceptive pill"
+        "label": "Cap/diaphragm"
       },
       {
         "code": "8",
-        "label": "Contraceptive pill – don't know which type"
+        "label": "Dental dams"
       },
       {
         "code": "9",
-        "label": "Hormonal IUS (e.g. Mirena, Jaydress, Kyleena, Levosert)"
+        "label": "Combined oral contraceptive pill"
       },
       {
         "code": "10",
-        "label": "Vaginal ring (e.g. NuvaRing)"
+        "label": "Progesterone only contraceptive pill"
       },
       {
         "code": "11",
-        "label": "Contraceptive patch (e.g. EVRA)"
+        "label": "Contraceptive pill – don't know which type"
       },
       {
         "code": "12",
-        "label": "Injections"
+        "label": "Emergency contraceptive pill/morning after pill"
       },
       {
         "code": "13",
-        "label": "Implants Emergency"
+        "label": "Hormonal IUS (e.g. Mirena, Jaydress, Kyleena, Levosert)"
       },
       {
         "code": "14",
-        "label": "Emergency contraceptive pill/morning after pill"
+        "label": "Copper coil/intra-uterine device (IUD)"
       },
       {
         "code": "15",
@@ -198,40 +198,40 @@
       },
       {
         "code": "16",
-        "label": "Post-exposure prophylaxis (PEP) to prevent HIV"
+        "label": "Vaginal ring (e.g. NuvaRing)"
       },
       {
         "code": "17",
-        "label": "Safe period/calendar method/rhythm method"
+        "label": "Contraceptive patch (e.g. EVRA)"
       },
       {
         "code": "18",
-        "label": "Withdrawal (not ejaculating in a partner’s mouth, vagina, or anus)"
+        "label": "Injections"
       },
       {
         "code": "19",
-        "label": "Fertility awareness apps or devices"
+        "label": "Implants"
       },
       {
         "code": "20",
-        "label": "Avoiding penetrative sex"
+        "label": "Safe period/calendar method/rhythm method"
       },
       {
         "code": "21",
-        "label": "Copper coil/intra-uterine device (IUD)"
+        "label": "Fertility awareness apps or devices"
       },
       {
         "code": "22",
-        "label": "Spermicides (foams/gels/sprays/pessaries)"
+        "label": "Pre-Exposure Prophylaxis (PrEP) drug"
       },
       {
         "code": "23",
-        "label": "Pre-Exposure Prophylaxis (PrEP) drug"
+        "label": "Post-exposure prophylaxis (PEP) to prevent HIV"
       },
       {
         "code": "24",
         "label": "Other method of protection"
-      }
+      }  
     ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
