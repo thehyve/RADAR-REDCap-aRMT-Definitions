@@ -118,46 +118,51 @@
       },
       {
         "code": "20",
+        "label": "Other digestive tract condition"
+      },
+
+      {
+        "code": "21",
         "label": "Urinary incontinence, problems in controlling the bladder"
       },
       {
-        "code": "21",
+        "code": "23",
         "label": "Kidney problems"
       },
       {
-        "code": "22",
+        "code": "24",
         "label": "Depression"
       },
       {
-        "code": "23",
+        "code": "24",
         "label": "Anxiety"
       },
       {
-        "code": "24",
+        "code": "25",
         "label": "Post Traumatic Stress Disorder (PTSD)"
       },
       {
-        "code": "25",
+        "code": "26",
         "label": "Other mental health condition"
       },
       {
-        "code": "26",
+        "code": "27",
         "label": "Deafness or hearing loss"
       },
       {
-        "code": "27",
+        "code": "28",
         "label": "Blindness or Partial sight"
       },
       {
-        "code": "28",
+        "code": "29",
         "label": "A learning disability"
       },
       {
-        "code": "29",
+        "code": "30",
         "label": "Autism or autism spectrum condition"
       },
       {
-        "code": "30",
+        "code": "31",
         "label": "Other"
       }
     ],
@@ -465,7 +470,7 @@
     "field_type": "slider",
     "field_label": "Kilograms",
     "range": {
-      "min": "40",
+      "min": "30",
       "max": "200",
       "step": "1"
     },
