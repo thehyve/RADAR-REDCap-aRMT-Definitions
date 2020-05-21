@@ -1936,7 +1936,7 @@
     "form_name": "demographics_part_1",
     "section_header": "Living arrangements",
     "field_type": "radio",
-    "field_label": "Are you CURRENTLY:",
+    "field_label": "Are you currently:",
     "select_choices_or_calculations": [
       {
         "code": "0",
