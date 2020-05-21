@@ -231,7 +231,7 @@
       {
         "code": "24",
         "label": "Other method of protection"
-      }  
+      }
     ],
     "field_note": "",
     "text_validation_type_or_show_slider_number": "",
@@ -330,7 +330,7 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Not used condoms."
+        "label": "Not used condoms"
       },
       {
         "code": "1",

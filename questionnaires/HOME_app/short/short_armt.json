@@ -1391,6 +1391,10 @@
       {
         "code": "2",
         "label": "A&E and Ambulatory care (outpatient A&E follow up)"
+      },
+      {
+        "code": "3",
+        "label": "Ambulance crew only"
       }
     ],
     "field_note": "",
