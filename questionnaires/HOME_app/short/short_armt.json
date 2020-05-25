@@ -1616,7 +1616,7 @@
   {
     "field_name": "short_18",
     "form_name": "short",
-    "section_header": "Why was it not easy?",
+    "section_header": "Why was this?",
     "field_type": "checkbox",
     "field_label": "Multiple options possible",
     "select_choices_or_calculations": [
