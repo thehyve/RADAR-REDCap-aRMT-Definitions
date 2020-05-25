@@ -1094,6 +1094,86 @@
   {
     "field_name": "short_5",
     "form_name": "short",
+    "section_header": "What did you seek care for?",
+    "field_type": "radio",
+    "field_label": "If more than one problem — choose the most important",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Physical health problem"
+      },
+      {
+        "code": "1",
+        "label": "Mental health problem"
+      },
+      {
+        "code": "2",
+        "label": "Injury or accident"
+      },
+      {
+        "code": "3",
+        "label": "Covid-19"
+      },
+      {
+        "code": "4",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0"
+  },
+  {
+    "field_name": "short_6",
+    "form_name": "short",
+    "section_header": "Was it a new or an existing problem?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "New acute problem"
+      },
+      {
+        "code": "1",
+        "label": "Acute problem related to a chronic/existing problem"
+      },
+      {
+        "code": "2",
+        "label": "Chronic/existing problem"
+      },
+      {
+        "code": "3",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_2'] == 0"
+  },
+  {
+    "field_name": "short_7",
+    "form_name": "short",
     "section_header": "How was this care planned or arranged?",
     "field_type": "radio",
     "field_label": "",
@@ -1134,7 +1214,7 @@
     "evaluated_logic": "responses['short_3'] == 1"
   },
   {
-    "field_name": "short_6",
+    "field_name": "short_8",
     "form_name": "short",
     "section_header": "Did you or a relative/friend call 999?",
     "field_type": "radio",
@@ -1161,10 +1241,10 @@
     "matrix_group_name": " short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 3"
+    "evaluated_logic": "responses['short_7'] == 3"
   },
   {
-    "field_name": "short_7",
+    "field_name": "short_9",
     "form_name": "short",
     "section_header": "Where/from whom did you get care?",
     "field_type": "radio",
@@ -1247,10 +1327,10 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 0 || responses['short_5'] == 4"
+    "evaluated_logic": "responses['short_7'] == 0 || responses['short_7'] == 4"
   },
   {
-    "field_name": "short_8",
+    "field_name": "short_10",
     "form_name": "short",
     "section_header": "Where/from whom did you get care?",
     "field_type": "radio",
@@ -1317,10 +1397,10 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 1"
+    "evaluated_logic": "responses['short_7'] == 1"
   },
   {
-    "field_name": "short_9",
+    "field_name": "short_11",
     "form_name": "short",
     "section_header": "Where/from whom did you get care?",
     "field_type": "radio",
@@ -1371,10 +1451,10 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 2"
+    "evaluated_logic": "responses['short_7'] == 2"
   },
   {
-    "field_name": "short_10",
+    "field_name": "short_12",
     "form_name": "short",
     "section_header": "Where/from whom did you get care?",
     "field_type": "radio",
@@ -1409,10 +1489,10 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_5'] == 3"
+    "evaluated_logic": "responses['short_7'] == 3"
   },
   {
-    "field_name": "short_11",
+    "field_name": "short_13",
     "form_name": "short",
     "section_header": "What type of GP service did you use?",
     "field_type": "radio",
@@ -1459,10 +1539,10 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_7'] == 0 || responses['short_8'] == 0"
+    "evaluated_logic": "responses['short_9'] == 0 || responses['short_10'] == 0"
   },
   {
-    "field_name": "short_12",
+    "field_name": "short_14",
     "form_name": "short",
     "section_header": "What type of GP service did you walk into?",
     "field_type": "radio",
@@ -1497,90 +1577,10 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_9'] == 0"
+    "evaluated_logic": "responses['short_11'] == 0"
   },
   {
-    "field_name": "short_13",
-    "form_name": "short",
-    "section_header": "What did you seek care for?",
-    "field_type": "radio",
-    "field_label": "If more than one problem — choose the most important",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "Physical health problem"
-      },
-      {
-        "code": "1",
-        "label": "Mental health problem"
-      },
-      {
-        "code": "2",
-        "label": "Injury or accident"
-      },
-      {
-        "code": "3",
-        "label": "Covid-19"
-      },
-      {
-        "code": "4",
-        "label": "Other"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_14",
-    "form_name": "short",
-    "section_header": "Was it a new or an existing problem?",
-    "field_type": "radio",
-    "field_label": "",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
-        "label": "New acute problem"
-      },
-      {
-        "code": "1",
-        "label": "It was an acute complication or flare up of a chronic/existing problem"
-      },
-      {
-        "code": "2",
-        "label": "It was a chronic/existing problem"
-      },
-      {
-        "code": "3",
-        "label": "Other"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "short",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 0"
-  },
-  {
-    "field_name": "short_15",
+    "field_name": "short_17",
     "form_name": "short",
     "section_header": "We would like to know how easy it has been for you to access this care.",
     "field_type": "radio",
@@ -1614,7 +1614,7 @@
     "evaluated_logic": "responses['short_3'] == 1"
   },
   {
-    "field_name": "short_16",
+    "field_name": "short_18",
     "form_name": "short",
     "section_header": "Why was it not easy?",
     "field_type": "checkbox",
@@ -1745,6 +1745,6 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_15'] == 0"
+    "evaluated_logic": "responses['short_2'] == 2 || responses['short_17'] == 0"
   }
 ]
