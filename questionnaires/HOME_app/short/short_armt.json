@@ -1710,26 +1710,30 @@
       },
       {
         "code": "22",
-        "label": "I don’t have valid immigration documents"
+        "label": "Difficulty affording NHS surcharge for migrants"
       },
       {
         "code": "23",
-        "label": "I feel I don’t speak English well enough to communicate properly"
+        "label": "I don’t have valid immigration documents"
       },
       {
         "code": "24",
-        "label": "Interpreter services were not or only partially available"
+        "label": "I feel I don’t speak English well enough to communicate properly"
       },
       {
         "code": "25",
-        "label": "I am afraid of losing wages while getting care"
+        "label": "Interpreter services were not or only partially available"
       },
       {
         "code": "26",
-        "label": "Getting care is difficult for me as I am a part- or full-time carer for children/relative(s)"
+        "label": "I am afraid of losing wages while getting care"
       },
       {
         "code": "27",
+        "label": "Getting care is difficult for me as I am a part- or full-time carer for children/relative(s)"
+      },
+      {
+        "code": "28",
         "label": "Another reason"
       }
     ],
