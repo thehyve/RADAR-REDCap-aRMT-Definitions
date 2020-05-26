@@ -1869,6 +1869,10 @@
       {
         "code": "4",
         "label": "Widowed"
+      },
+      {
+        "code": "5",
+        "label": "Separated"
       }
     ],
     "field_note": "",
@@ -1894,52 +1898,6 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Living in a couple/cohabiting: married or in a civil partnership"
-      },
-      {
-        "code": "1",
-        "label": "Living in a couple/cohabiting, but never married or civil partnered"
-      },
-      {
-        "code": "2",
-        "label": "Living in a couple/cohabiting, but previously married or civil partnered"
-      },
-      {
-        "code": "3",
-        "label": "Not living in a couple/cohabiting, but married or in a civil partnership"
-      },
-      {
-        "code": "4",
-        "label": "Not living in a couple/cohabiting, never married or civil partnered"
-      },
-      {
-        "code": "5",
-        "label": "Not living in a couple/cohabiting, but previously married or civil partnered"
-      }
-    ],
-    "field_note": "",
-    "text_validation_type_or_show_slider_number": "",
-    "text_validation_min": "",
-    "text_validation_max": "",
-    "identifier": "",
-    "branching_logic": "",
-    "required_field": "",
-    "custom_alignment": "",
-    "question_number": "",
-    "matrix_group_name": "demographics_part_1",
-    "matrix_ranking": "",
-    "field_annotation": "",
-    "evaluated_logic": "responses['demographics_part_1_11'] == 0 || responses['demographics_part_1_11'] == 1 || responses['demographics_part_1_11'] == 2"
-  },
-  {
-    "field_name": "demographics_part_1_13",
-    "form_name": "demographics_part_1",
-    "section_header": "Living arrangements",
-    "field_type": "radio",
-    "field_label": "Are you currently:",
-    "select_choices_or_calculations": [
-      {
-        "code": "0",
         "label": "Living in a couple/cohabiting"
       },
       {
@@ -1959,7 +1917,41 @@
     "matrix_group_name": "demographics_part_1",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['demographics_part_1_11'] == 3 || responses['demographics_part_1_11'] == 4"
+    "evaluated_logic": "responses['demographics_part_1_11'] == 0 || responses['demographics_part_1_11'] == 1 ||responses['demographics_part_1_11'] == 2 || responses['demographics_part_1_11'] == 4"
+  },
+  {
+    "field_name": "demographics_part_1_13",
+    "form_name": "demographics_part_1",
+    "section_header": "Living arrangements",
+    "field_type": "radio",
+    "field_label": "Are you currently:",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Living with new partner/cohabiting"
+      },
+      {
+        "code": "1",
+        "label": "Living with former partner/cohabiting"
+      },
+      {
+        "code": "2",
+        "label": "Not living in a couple/cohabiting"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "demographics_part_1",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['demographics_part_1_11'] == 3 || responses['demographics_part_1_11'] == 5"
   },
   {
     "field_name": "demographics_part_1_14",
