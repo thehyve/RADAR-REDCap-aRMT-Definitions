@@ -265,7 +265,7 @@
   {
     "field_name": "employment_7",
     "form_name": "employment",
-    "section_header": "Within the last 12 months, did you have any physical or mental health problems- other than injuries - that were caused by your work?",
+    "section_header": "Within the last 12 months, did you have any physical or mental health problems —— other than injuries —— that were caused by your work?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
@@ -334,11 +334,11 @@
       },
       {
         "code": "1",
-        "label": "Hips, legs or feet"
+        "label": "Hips, legs or feet problems"
       },
       {
         "code": "2",
-        "label": "Back"
+        "label": "Back problems"
       },
       {
         "code": "3",
@@ -432,14 +432,10 @@
       },
       {
         "code": "9",
-        "label": "At least 1 month but less than 3 months "
-      },
-      {
-        "code": "10",
         "label": "At least 9 months but less than one year "
       },
       {
-        "code": "11",
+        "code": "10",
         "label": "More than one year"
       }
     ],
