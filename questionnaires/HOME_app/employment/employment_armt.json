@@ -191,11 +191,11 @@
       },
       {
         "code": "10",
-        "label": "Other type of injury"
+        "label": "Multiple injuries, no one injury type obviously more severe"
       },
       {
         "code": "11",
-        "label": "Multiple injuries, no one injury type obviously more severe"
+        "label": "Other type of injury"
       }
     ],
     "field_note": "",
