@@ -8,15 +8,15 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "😞"
+        "label": "😞 Bad "
       },
       {
         "code": "1",
-        "label": "😐"
+        "label": "😐 Neutral"
       },
       {
         "code": "2",
-        "label": "😀"
+        "label": "😀 Good"
       }
     ],
     "field_note": "",
@@ -1588,15 +1588,15 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "😞"
+        "label": "😞 Not easy"
       },
       {
         "code": "1",
-        "label": "😐"
+        "label": "😐 Neutral"
       },
       {
         "code": "2",
-        "label": "😀"
+        "label": "😀 Easy"
       }
     ],
     "field_note": "",
