@@ -12,7 +12,7 @@
       },
       {
         "code": "1",
-        "label": "Have not tried to register at GP surgery"
+        "label": "Did not try to register at a GP surgery"
       },
       {
         "code": "2",
@@ -151,7 +151,7 @@
       },
       {
         "code": "1",
-        "label": "Did not have the document necessary"
+        "label": "Did not have the necessary documentation"
       },
       {
         "code": "2",
@@ -205,7 +205,7 @@
   {
     "field_name": "GP_access_7",
     "form_name": "GP_access",
-    "section_header": "Could you please choose the reasons deterring/deterred you from GP registration?",
+    "section_header": "What reasons have deterred you from registering with a GP?",
     "field_type": "checkbox",
     "field_label": "Mutiple options possible",
     "select_choices_or_calculations": [
@@ -235,7 +235,7 @@
       },
       {
         "code": "6",
-        "label": "Afraid of being discriminated"
+        "label": "Afraid of being discriminated against"
       },
       {
         "code": "7",
@@ -243,7 +243,7 @@
       },
       {
         "code": "8",
-        "label": "Don’t have valid immigration document"
+        "label": "Don’t have valid immigration documents"
       },
       {
         "code": "9",
