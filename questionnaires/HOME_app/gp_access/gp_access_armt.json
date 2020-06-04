@@ -431,17 +431,17 @@
   {
     "field_name": "GP_access_12",
     "form_name": "GP_access",
-    "section_header": "Would you want to use interpreter services during your visit to a GP?",
+    "section_header": "When you visit your GP would you want/need/prefer to have an interpreter?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Want to use interpreter service"
+        "label": "Want/need/prefer to use an interpreter service"
       },
       {
         "code": "1",
-        "label": "Don’t want to use interpreter service"
+        "label": "Don’t want/need/prefer to use an interpreter service"
       }
     ],
     "field_note": "",
@@ -467,11 +467,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Used interpreter service"
+        "label": "Used interpreter services"
       },
       {
         "code": "1",
-        "label": "Did not use interpreter service"
+        "label": "Did not use interpreter services"
       }
     ],
     "field_note": "",
@@ -497,11 +497,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Have been offered interpreter service"
+        "label": "Have been offered interpreter services"
       },
       {
         "code": "1",
-        "label": "Have not been offered interpreter service"
+        "label": "Have not been offered interpreter services"
       }
     ],
     "field_note": "",
