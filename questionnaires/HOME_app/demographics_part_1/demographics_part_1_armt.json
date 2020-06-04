@@ -54,18 +54,14 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "English/ Welsh/ Scottish/ Northern Irish/ British"
-      },
-      {
-        "code": "1",
         "label": "Irish"
       },
       {
-        "code": "2",
+        "code": "1",
         "label": "Gypsy or Irish Traveller"
       },
       {
-        "code": "3",
+        "code": "2",
         "label": "Any other White background"
       }
     ],
