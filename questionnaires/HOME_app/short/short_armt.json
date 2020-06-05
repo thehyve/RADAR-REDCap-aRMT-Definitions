@@ -8,15 +8,15 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "😞 Bad "
+        "label": "Bad 😞"
       },
       {
         "code": "1",
-        "label": "😐 Neutral"
+        "label": "Neutral 😐"
       },
       {
         "code": "2",
-        "label": "😀 Good"
+        "label": "Good 😀"
       }
     ],
     "field_note": "",
@@ -1180,11 +1180,11 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "I made a phone call or booked online, then I spoke to or saw someone"
+        "label": "I made a phone call or booked online (website/app), then I spoke to or saw someone"
       },
       {
         "code": "1",
-        "label": "It was already planned / booked in advance for me (routine appointment)"
+        "label": "It was already planned / booked in advance for me"
       },
       {
         "code": "2",
@@ -1500,30 +1500,22 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "Routine GP appointment booked in advance (including seeing a nurse)"
-      },
-      {
-        "code": "1",
         "label": "GP same day urgent appointment including seeing GP/nurse in person or phone/video call back from GP"
       },
       {
-        "code": "2",
+        "code": "1",
         "label": "Home visit from a GP"
       },
       {
-        "code": "3",
-        "label": "GP walk-in service/ NHS walk-in centre (no booking)"
-      },
-      {
-        "code": "4",
+        "code": "2",
         "label": "GP out of hours service via phone number 111 after which I saw GP in person or received a phone/video call back from GP"
       },
       {
-        "code": "5",
-        "label": "NHS “GP at Hand” smartphone app or another remote online GP service"
+        "code": "3",
+        "label": "NHS “GP at Hand” smartphone app or another remote online GP service after which I received a phone/video call back from GP"
       },
       {
-        "code": "6",
+        "code": "4",
         "label": "Other"
       }
     ],
@@ -1543,6 +1535,40 @@
   },
   {
     "field_name": "short_14",
+    "form_name": "short",
+    "section_header": "What type of GP service did you use?",
+    "field_type": "radio",
+    "field_label": "",
+    "select_choices_or_calculations": [
+      {
+        "code": "0",
+        "label": "Routine GP appointment booked in advance (including seeing a nurse)"
+      },
+      {
+        "code": "1",
+        "label": "Home visit from a GP"
+      },
+      {
+        "code": "2",
+        "label": "Other"
+      }
+    ],
+    "field_note": "",
+    "text_validation_type_or_show_slider_number": "",
+    "text_validation_min": "",
+    "text_validation_max": "",
+    "identifier": "",
+    "branching_logic": "",
+    "required_field": "",
+    "custom_alignment": "",
+    "question_number": "",
+    "matrix_group_name": "short",
+    "matrix_ranking": "",
+    "field_annotation": "",
+    "evaluated_logic": "responses['short_10'] == 0"
+  },
+  {
+    "field_name": "short_15",
     "form_name": "short",
     "section_header": "What type of GP service did you walk into?",
     "field_type": "radio",
@@ -1580,7 +1606,7 @@
     "evaluated_logic": "responses['short_11'] == 0"
   },
   {
-    "field_name": "short_17",
+    "field_name": "short_16",
     "form_name": "short",
     "section_header": "We would like to know how easy it has been for you to access this care.",
     "field_type": "radio",
@@ -1588,15 +1614,15 @@
     "select_choices_or_calculations": [
       {
         "code": "0",
-        "label": "😞 Not easy"
+        "label": "Not easy 😞"
       },
       {
         "code": "1",
-        "label": "😐 Neutral"
+        "label": "Neutral 😐"
       },
       {
         "code": "2",
-        "label": "😀 Easy"
+        "label": "Easy 😀"
       }
     ],
     "field_note": "",
@@ -1614,7 +1640,7 @@
     "evaluated_logic": "responses['short_3'] == 1"
   },
   {
-    "field_name": "short_18",
+    "field_name": "short_17",
     "form_name": "short",
     "section_header": "Why was this?",
     "field_type": "checkbox",
@@ -1749,6 +1775,6 @@
     "matrix_group_name": "short",
     "matrix_ranking": "",
     "field_annotation": "",
-    "evaluated_logic": "responses['short_2'] == 2 || responses['short_17'] == 0"
+    "evaluated_logic": "responses['short_2'] == 2 || responses['short_16'] == 0"
   }
 ]
