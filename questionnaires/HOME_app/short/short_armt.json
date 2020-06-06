@@ -1366,22 +1366,18 @@
       },
       {
         "code": "7",
-        "label": "Telephone advice only via phone number 111 (without speaking to a GP)"
-      },
-      {
-        "code": "8",
         "label": "Traditional healer"
       },
       {
-        "code": "9",
+        "code": "8",
         "label": "Charity"
       },
       {
-        "code": "10",
+        "code": "9",
         "label": "Other medical care"
       },
       {
-        "code": "11",
+        "code": "10",
         "label": "Other non-medical care"
       }
     ],
