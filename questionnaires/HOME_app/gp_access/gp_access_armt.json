@@ -111,7 +111,7 @@
   {
     "field_name": "GP_access_4",
     "form_name": "GP_access",
-    "section_header": "Did you have problems in registering with the GP at that time?",
+    "section_header": "Did you have problems registering with the GP at that time?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [

@@ -359,7 +359,7 @@
   {
     "field_name": "physical_activity_11",
     "form_name": "physical_activity",
-    "section_header": "During the last 7 days, how much time did you spend sitting on a week day?",
+    "section_header": "During the last 7 days, how much time did you spend sitting on a weekday?",
     "field_type": "slider",
     "field_label": "Hours",
     "range": {

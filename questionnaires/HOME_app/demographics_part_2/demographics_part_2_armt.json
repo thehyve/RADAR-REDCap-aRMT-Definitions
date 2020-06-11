@@ -301,7 +301,7 @@
   {
     "field_name": "demographics_part_2_6",
     "form_name": "demographics_part_2",
-    "section_header": "In the last 12 months have you had any unexpected stay in hospital because of your condition(s)?",
+    "section_header": "In the last 12 months have you had any unexpected stays in hospital because of your condition(s)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [

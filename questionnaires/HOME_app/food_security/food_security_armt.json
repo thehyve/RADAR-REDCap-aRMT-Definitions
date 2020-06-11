@@ -142,7 +142,7 @@
   {
     "field_name": "food_security_5",
     "form_name": "food_security",
-    "section_header": "How often did this happens?",
+    "section_header": "How often did this happen?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [

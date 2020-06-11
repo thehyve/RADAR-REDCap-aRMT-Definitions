@@ -452,7 +452,7 @@
   {
     "field_name": "health_literacy_12",
     "form_name": "health_literacy",
-    "section_header": "How easy/difficult is it for you to judge if the information on health risks in the media is reliable (e.g. from TV or internet)?",
+    "section_header": "How easy/difficult is it for you to judge if the information on health risks in the media is reliable (e.g. from TV or the internet)?",
     "field_type": "radio",
     "field_label": "",
     "select_choices_or_calculations": [

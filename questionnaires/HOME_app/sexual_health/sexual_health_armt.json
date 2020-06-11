@@ -2,7 +2,7 @@
   {
     "field_name": "sexual_health_1",
     "form_name": "sexual_health",
-    "section_header": "Which of these have you used to prevent pregnancy, sexually transmitted infections, or for any other reason (e.g. pill to help with acne, pill for stopping menstruation)?",
+    "section_header": "Which of these have you used to prevent pregnancy, sexually transmitted infections (STI), or for any other reason (e.g. pill to help with acne, pill for stopping menstruation)?",
     "field_type": "checkbox",
     "field_label": "Multiple options possible",
     "select_choices_or_calculations": [
@@ -703,6 +703,10 @@
       {
         "code": "1",
         "label": "No"
+      },
+      {
+        "code": "2",
+        "label": "Don't know"
       }
     ],
     "field_note": "",
