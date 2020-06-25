@@ -1112,10 +1112,6 @@
       },
       {
         "code": "3",
-        "label": "Covid-19"
-      },
-      {
-        "code": "4",
         "label": "Other"
       }
     ],
