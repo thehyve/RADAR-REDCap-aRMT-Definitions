@@ -4,7 +4,7 @@
   "form_name": "engagement",
   "section_header": "",
   "field_type": "range",
-  "field_label": "When using the HOME app, how strongly are you experiencing interest?",
+  "field_label": "How strongly did you experience interest?",
   "select_choices_or_calculations": [
     {
       "code": "1",
