@@ -331,15 +331,15 @@
         "label": "A little bit"
       },
       {
-        "code": "1",
+        "code": "2",
         "label": "Moderately"
       },
       {
-        "code": "2",
+        "code": "3",
         "label": "Quite a bit"
       },
       {
-        "code": "3",
+        "code": "4",
         "label": "Extremely"
       }
     ],
@@ -403,19 +403,19 @@
         "label": "Most of the time"
       },
       {
-        "code": "1",
+        "code": "2",
         "label": "A good bit of the time"
       },
       {
-        "code": "2",
+        "code": "3",
         "label": "Some of the time"
       },
       {
-        "code": "3",
+        "code": "4",
         "label": "A little of the time"
       },
       {
-        "code": "4",
+        "code": "5",
         "label": "None of the time"
       }
     ],
@@ -449,19 +449,19 @@
         "label": "Most of the time"
       },
       {
-        "code": "1",
+        "code": "2",
         "label": "A good bit of the time"
       },
       {
-        "code": "2",
+        "code": "3",
         "label": "Some of the time"
       },
       {
-        "code": "3",
+        "code": "4",
         "label": "A little of the time"
       },
       {
-        "code": "4",
+        "code": "5",
         "label": "None of the time"
       }
     ],
@@ -495,19 +495,19 @@
         "label": "Most of the time"
       },
       {
-        "code": "1",
+        "code": "2",
         "label": "A good bit of the time"
       },
       {
-        "code": "2",
+        "code": "3",
         "label": "Some of the time"
       },
       {
-        "code": "3",
+        "code": "4",
         "label": "A little of the time"
       },
       {
-        "code": "4",
+        "code": "5",
         "label": "None of the time"
       }
     ],
@@ -541,19 +541,19 @@
         "label": "Most of the time"
       },
       {
-        "code": "1",
+        "code": "2",
         "label": "A good bit of the time"
       },
       {
-        "code": "2",
+        "code": "3",
         "label": "Some of the time"
       },
       {
-        "code": "3",
+        "code": "4",
         "label": "A little of the time"
       },
       {
-        "code": "4",
+        "code": "5",
         "label": "None of the time"
       }
     ],
