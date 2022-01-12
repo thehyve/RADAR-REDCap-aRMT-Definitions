@@ -4,7 +4,7 @@
   "form_name": "engagement",
   "section_header": "",
   "field_type": "range",
-  "field_label": "How strongly did you experience interest?",
+  "field_label": "How strongly did you experience interest in the app at this point in time?",
   "select_choices_or_calculations": [
     {
       "code": "1",
