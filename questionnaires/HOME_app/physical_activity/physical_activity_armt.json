@@ -4,7 +4,7 @@
     "form_name": "physical_activity",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -113,7 +113,7 @@
     "form_name": "physical_activity",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -222,7 +222,7 @@
     "form_name": "physical_activity",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -331,7 +331,7 @@
     "form_name": "physical_activity",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -386,7 +386,7 @@
     "form_name": "physical_activity",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",
@@ -454,7 +454,7 @@
     "form_name": "physical_activity",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",

@@ -4,7 +4,7 @@
     "form_name": "health_literacy",
     "section_header": "Read this carefully",
     "field_type": "info",
-    "field_label": "",
+    "field_label": "Very carefully",
     "select_choices_or_calculations": [
       {
         "code": "",
