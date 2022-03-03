@@ -49,8 +49,12 @@
         "label": "How much do you agree or disagree with the following statements about your area? By ‘around here’ we mean anywhere you can walk to, from your home, in 5 minutes"
       },
       {
-        "code": "",
-        "label": "Please scroll down and click 'next' to continue"
+     "code": "",
+     "label": "Please scroll down."
+      },
+      {
+     "code": "",
+     "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",

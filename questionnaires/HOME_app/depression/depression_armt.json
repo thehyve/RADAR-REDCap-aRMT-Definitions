@@ -11,8 +11,12 @@
         "label": "Over the last 2 WEEKS, how often have you been bothered by any of the following problems?"
       },
       {
-        "code": "",
-        "label": "Please scroll down and click 'next' to continue"
+     "code": "",
+     "label": "Please scroll down."
+      },
+      {
+     "code": "",
+     "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",

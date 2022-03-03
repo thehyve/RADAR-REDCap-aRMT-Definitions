@@ -11,8 +11,12 @@
         "label": "The following questions are about how easy/difficult it is for you to find, understand and use information related to health, illness and medical care in the UK."
       },
       {
-        "code": "",
-        "label": "Please scroll down and click 'next' to continue"
+     "code": "",
+     "label": "Please scroll down."
+      },
+      {
+     "code": "",
+     "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",

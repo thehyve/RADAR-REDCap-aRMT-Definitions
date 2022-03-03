@@ -11,8 +11,12 @@
         "label": "The next few questions are about people you feel close to, including relatives, friends and acquaintances."
       },
       {
-        "code": "",
-        "label": "Please scroll down and click 'next' to continue"
+     "code": "",
+     "label": "Please scroll down."
+      },
+      {
+     "code": "",
+     "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
@@ -141,8 +145,12 @@
         "label": "We would now like you to think about your family and friends. By family we mean those who live with you as well as those elsewhere. Here are some comments people have made about their family and their friends. For each statement, please say whether it is not true, partly true or certainly true for you."
       },
       {
-        "code": "",
-        "label": "Please scroll down and click 'next' to continue"
+     "code": "",
+     "label": "Please scroll down."
+      },
+      {
+     "code": "",
+     "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",

@@ -11,8 +11,12 @@
         "label": "For the following two statements, please tell us whether the statement was often true, sometimes true, or never true for you/your household in the last 12 months"
       },
       {
-        "code": "",
-        "label": "Please scroll down and click 'next' to continue"
+     "code": "",
+     "label": "Please scroll down."
+      },
+      {
+     "code": "",
+     "label": "Click 'next' to continue"
       }
     ],
     "field_note": "",
